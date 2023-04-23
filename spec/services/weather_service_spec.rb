@@ -22,7 +22,6 @@ RSpec.describe WeatherService do
       expect(service[:location][:region]).to be_a(String)
       expect(service[:location]).to have_key(:country)
       expect(service[:location][:country]).to be_a(String)
-      expect(service[:location]).to have_key(:country)
 
       expect(service[:current]).to be_a(Hash)
       expect(service[:current].keys).to eq([:last_updated, :temp_f, :condition, :humidity, :feelslike_f, :vis_miles, :uv])
