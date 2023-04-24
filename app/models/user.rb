@@ -5,6 +5,13 @@ class User < ApplicationRecord
 
   validates :password, presence: true
 
+  has_secure_password
+  has_secure_token :api_key
+
+  before_create :create_key
+
+  private
+
   def create_key
     self.api_key = SecureRandom.hex(13)
   end
