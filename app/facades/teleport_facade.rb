@@ -5,9 +5,16 @@ class TeleportFacade
   end
 
   def get_city_salaries(city)
-    city_names = @service.city_salaries(city)
-    require 'pry'; binding.pry
+    all_salaries = @service.city_salaries(city)[:salaries]
 
-    destination = city_names[:name]
+    destination = "#{city}"
+
+    salaries = all_salaries.map do |salary|
+      {
+        title: salary[:job][:title],
+        min: sprintf("$%.2f", salary[:salary_percentiles][:percentile_25], delimeter: ",")
+        max: sprintf("$%.2f", salary[:salary_percentiles][:percentile_75], delimeter: ",")
+      }
+    end
   end
 end
