@@ -26,16 +26,17 @@ class TeleportFacade
 
     salaries = all_salaries.map do |salary|
       if specific_titles.include?("#{salary[:job][:title]}")
+        formatted_min = format("%.2f", salary[:salary_percentiles][:percentile_25])
+        formatted_max = format("%.2f", salary[:salary_percentiles][:percentile_75])
+
+
         {
           title: salary[:job][:title],
-          min: number_with_delimiter(salary[:salary_percentiles][:percentile_25], delimeter: ",")
-          # min: sprintf("$%.2f", salary[:salary_percentiles][:percentile_25], delimeter: ","),
-          # max: sprintf("$%.2f", salary[:salary_percentiles][:percentile_75], delimeter: ",")
+          min: "$#{formatted_min.gsub(/(\d)(?=\d{3}+(\.\d*)?$)/, '\\1,')}",
+          max: "$#{formatted_max.gsub(/(\d)(?=\d{3}+(\.\d*)?$)/, '\\1,')}"
         }
       end
     end.compact
-
-    require 'pry'; binding.pry
 
     Salary.new(destination, forecast, salaries)
   end
