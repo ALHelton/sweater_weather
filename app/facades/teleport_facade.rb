@@ -28,11 +28,14 @@ class TeleportFacade
       if specific_titles.include?("#{salary[:job][:title]}")
         {
           title: salary[:job][:title],
-          min: sprintf("$%.2f", salary[:salary_percentiles][:percentile_25], delimeter: ","),
-          max: sprintf("$%.2f", salary[:salary_percentiles][:percentile_75], delimeter: ",")
+          min: number_with_delimiter(salary[:salary_percentiles][:percentile_25], delimeter: ",")
+          # min: sprintf("$%.2f", salary[:salary_percentiles][:percentile_25], delimeter: ","),
+          # max: sprintf("$%.2f", salary[:salary_percentiles][:percentile_75], delimeter: ",")
         }
       end
     end.compact
+
+    require 'pry'; binding.pry
 
     Salary.new(destination, forecast, salaries)
   end
