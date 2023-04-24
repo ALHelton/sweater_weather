@@ -7,6 +7,15 @@ class TeleportFacade
   def get_city_salaries(city)
     all_salaries = @service.city_salaries(city)[:salaries]
     entire_forecast = WeatherFacade.new.full_forecast(city)
+    specific_titles = [
+                      "Data Analyst", 
+                      "Data Scientist", 
+                      "Mobile Developer", 
+                      "QA Engineer",
+                      "Software Engineer",
+                      "Systems Administrator",
+                      "Web Developer"
+    ]
 
     destination = "#{city}"
 
@@ -16,12 +25,14 @@ class TeleportFacade
     }
 
     salaries = all_salaries.map do |salary|
-      {
-        title: salary[:job][:title],
-        min: sprintf("$%.2f", salary[:salary_percentiles][:percentile_25], delimeter: ","),
-        max: sprintf("$%.2f", salary[:salary_percentiles][:percentile_75], delimeter: ",")
-      }
-    end
+      if specific_titles.include?("#{salary[:job][:title]}")
+        {
+          title: salary[:job][:title],
+          min: sprintf("$%.2f", salary[:salary_percentiles][:percentile_25], delimeter: ","),
+          max: sprintf("$%.2f", salary[:salary_percentiles][:percentile_75], delimeter: ",")
+        }
+      end
+    end.compact
 
     Salary.new(destination, forecast, salaries)
   end
