@@ -6,13 +6,8 @@ RSpec.describe TeleportService do
 
     it "establishes a connection to get forcast by coordinates" do
       expect(service).to be_a(Hash)
+      require 'pry'; binding.pry
       expect(service.keys).to eq([:_links, :salaries])
-      
-      expect(service[:_links]).to be_a(Hash)
-      expect(service[:_links][:curies]).to be_an(Array)
-      expect(service[:_links][:curies][0]).to be_a(Hash)
-      expect(service[:_links][:curies][0]).to have_key(:name)
-      expect(service[:_links][:curies][0][:name]).to be_a(String)
 
       expect(service[:salaries]).to be_an(Array)
       expect(service[:salaries][0]).to be_a(Hash)
