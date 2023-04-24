@@ -1,38 +1,56 @@
 require "rails_helper"
 
 RSpec.describe WeatherFacade do
-  describe "current", :vcr do
-    let(:current) { WeatherFacade.new.current_weather("Denver, CO") }
-   
-    it "creates a poros for current weather info by location" do
-      expect(current).to be_a(CurrentWeather)
-    end
-  end
-
-  describe "daily", :vcr do
-    let(:days) { WeatherFacade.new.daily_weather("Denver, CO") }
-   
-    it "creates a poros for daily weather info by location" do
-      day = days.first
-      expect(day).to be_a(DailyWeather)
-    end
-  end
-
-  describe "hourly", :vcr do
-    let(:hours) { WeatherFacade.new.hourly_weather("Denver, CO") }
-   
-    it "creates a poros for hourly weather info by location" do
-      hour = hours.first
-      expect(hours.size).to eq(8)
-      expect(hour).to be_an(HourlyWeather)
-    end
-  end
-
   describe "full_forecast", :vcr do
+    before do
+      @current_keys = [
+        :last_updated, 
+        :temperature, 
+        :feels_like, 
+        :humidity, 
+        :uvi, 
+        :visibility, 
+        :condition, 
+        :icon
+      ]
+
+      @daily_keys = [
+        :date,
+        :sunrise,
+        :sunset,
+        :max_temp,
+        :min_temp,
+        :day_condition,
+        :day_icon
+      ]
+
+      @hourly_keys = [
+        :time,
+        :temperature,
+        :conditions,
+        :icon
+      ]
+    end
+
     let(:forecast) { WeatherFacade.new.full_forecast("Denver, CO") }
-  
+
     it "creates a poros for full forecast info by location" do
       expect(forecast).to be_a(Forecast)
+      expect(forecast.current_weather).to be_a(Hash)
+      expect(forecast.daily_weather).to be_an(Array)
+      expect(forecast.daily_weather.first).to be_a(Hash)
+      
+      expect(forecast.hourly_weather).to be_an(Array)
+      expect(forecast.hourly_weather.first).to be_a(Hash)
+
+      expect(forecast.current_weather.keys).to eq(@current_keys)
+      expect(forecast.current_weather.keys.size).to eq(@current_keys.size)
+
+      expect(forecast.daily_weather.first.keys).to eq(@daily_keys)
+      expect(forecast.daily_weather.first.keys.size).to eq(@daily_keys.size)
+
+      expect(forecast.hourly_weather.first.keys).to eq(@hourly_keys)
+      expect(forecast.hourly_weather.first.keys.size).to eq(@hourly_keys.size)
     end
   end
 end
