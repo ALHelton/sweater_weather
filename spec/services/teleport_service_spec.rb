@@ -18,27 +18,15 @@ RSpec.describe TeleportService do
       expect(service[:salaries][0]).to be_a(Hash)
       expect(service[:salaries][0].keys).to eq([:job, :salary_percentiles])
       expect(service[:salaries][0][:job]).to be_a(Hash)
-      expect(service[:salaries][0][:job]).to have_key(:salary_percentiles)
-      expect(service[:salaries][0][:job][:salary_percentiles]).to be_a(Hash)
-      expect(service[:salaries][0][:job][:salary_percentiles]).to have_key(:percentile_25)
-      
-      expect(service[:salaries][0][:job][:salary_percentiles]).to have_key(:percentile_25)
-      expect(service[:salaries][0][:job][:salary_percentiles][:percentile_25]).to be_a(Float)
-      expect(service[:salaries][0][:job][:salary_percentiles]).to have_key(:percentile_75)
-      expect(service[:salaries][0][:job][:salary_percentiles][:percentile_75]).to be_a(Float)
+      expect(service[:salaries][0][:job]).to have_key(:title)
+      expect(service[:salaries][0][:job][:title]).to be_a(String)
 
-
-
-
-
-
-
-
-
-
-
-
-      require 'pry'; binding.pry
+      expect(service[:salaries][0][:salary_percentiles]).to be_a(Hash)
+      expect(service[:salaries][0][:salary_percentiles]).to have_key(:percentile_25)
+      expect(service[:salaries][0][:salary_percentiles]).to have_key(:percentile_25)
+      expect(service[:salaries][0][:salary_percentiles][:percentile_25]).to be_a(Float)
+      expect(service[:salaries][0][:salary_percentiles]).to have_key(:percentile_75)
+      expect(service[:salaries][0][:salary_percentiles][:percentile_75]).to be_a(Float)
     end
   end
 end
