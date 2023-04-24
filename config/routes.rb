@@ -8,5 +8,9 @@ Rails.application.routes.draw do
     namespace :v0 do
       resources :forecast, only: [:index]
     end
+
+    namespace :v1 do
+      resources :salaries, only: [:index]
+    end
   end
 end
