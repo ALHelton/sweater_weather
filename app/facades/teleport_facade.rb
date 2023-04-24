@@ -14,7 +14,6 @@ class TeleportFacade
       summary: entire_forecast.hourly_weather.first[:conditions],
       temperature: "#{entire_forecast.current_weather[:temperature]} F"
     }
-    require 'pry'; binding.pry
 
     salaries = all_salaries.map do |salary|
       {
