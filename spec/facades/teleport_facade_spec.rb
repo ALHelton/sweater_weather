@@ -5,7 +5,7 @@ RSpec.describe TeleportFacade do
     let(:salary) { TeleportFacade.new.get_city_salaries("chicago") }
 
     it "creates a poros for salary info by city" do
-      
+
       specific_titles = [
         "Data Analyst", 
         "Data Scientist", 
@@ -24,6 +24,8 @@ RSpec.describe TeleportFacade do
       expect(salary.forecast[:temperature]).to be_a(String)
       expect(salary.id).to eq(nil)
       expect(salary.salaries).to be_an(Array)
+      expect(salary.salaries.size).to eq(7)
+
 
       salary.salaries.each do |job|
         expect(job).to be_a(Hash)
