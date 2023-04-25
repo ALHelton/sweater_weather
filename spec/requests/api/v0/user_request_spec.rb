@@ -16,7 +16,7 @@ RSpec.describe "user Request" do
 
   describe "Create User" do
     context "when successful" do
-      it "creates a new user with a key", :vcr do
+      it "creates a new user with an api key" do
         post "/api/v0/users", headers: @headers, params: @user_params.to_json
         parsed = JSON.parse(response.body, symbolize_names: true)
 
