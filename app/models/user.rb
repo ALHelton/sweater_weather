@@ -4,6 +4,8 @@ class User < ApplicationRecord
                     format: /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\z/i
 
   validates :password, presence: true
+  validates :password_confirmation, presence: true
+
 
   has_secure_password
   has_secure_token :api_key
