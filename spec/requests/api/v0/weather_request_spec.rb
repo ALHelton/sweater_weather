@@ -8,7 +8,7 @@ RSpec.describe "Weather Request" do
         "Accept" => "application/json"
       }
 
-      get "/api/v0/forecast?location=cincinatti,oh"
+      get "/api/v0/forecast?location=cincinatti,oh", headers: headers
       parsed = JSON.parse(response.body, symbolize_names: true)
       expect(response).to be_successful
       expect(parsed[:data]).to be_a(Hash)
