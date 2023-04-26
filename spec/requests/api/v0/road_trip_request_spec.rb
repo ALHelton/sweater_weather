@@ -54,6 +54,38 @@ RSpec.describe "Road Trip Request" do
         expect(parsed[:data][:attributes][:weather_at_eta][:temperature]).to be_a(String)
         expect(parsed[:data][:attributes][:weather_at_eta][:condition]).to be_a(String)
       end
+
+      it "creates a road trip with impossible info when given impossible route" do
+        @trip_params[:origin] = "Tokyo, Japan"
+        @trip_params[:destination] = "Rio de Janeiro, Brazil"
+        post "/api/v0/road_trip", headers: @headers, params: @trip_params.to_json
+        parsed = JSON.parse(response.body, symbolize_names: true)
+
+        expect(response.status).to eq(201)
+        expect(parsed[:data][:attributes][:travel_time]).to eq("impossible route")
+      end
+    end
+
+    context "when unsuccessful" do
+      describe "it returns a 401 error" do
+        it "if no API key is given" do
+          @trip_params[:api_key] = nil
+          post "/api/v0/road_trip", headers: @headers, params: @trip_params.to_json
+          parsed = JSON.parse(response.body, symbolize_names: true)
+
+          expect(response.status).to eq(401)
+          expect(parsed[:error]).to eq("Invalid Credentials")
+        end
+
+        it "if an incorrect key is provided" do
+          @trip_params[:api_key] = "123abc"
+          post "/api/v0/road_trip", headers: @headers, params: @trip_params.to_json
+          parsed = JSON.parse(response.body, symbolize_names: true)
+
+          expect(response.status).to eq(401)
+          expect(parsed[:error]).to eq("Invalid Credentials")
+        end
+      end
     end
   end
 end
