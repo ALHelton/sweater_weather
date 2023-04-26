@@ -67,10 +67,11 @@ $ bundle exec figaro install
 
 
 ## Endpoints
-<details>
-<summary> `GET '/api/v0/forecast?location=#{params}'` </summary>
 
-Params:
+<details>
+<summary> GET "/api/v0/forecast?location=#{params}" </summary>
+
+## Params:
 
 <pre>
 <code>
@@ -81,7 +82,7 @@ $ location=cincinatti,oh
 ![Landing Page](images/landing_page.png)
 
 
-Response:
+## Response:
 
 - Daily forecast: 5 day forecast
 - Hourly forecast: Current time thru 7 hours ahead
@@ -201,6 +202,152 @@ Response:
                     "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png"
                 }
             ]
+        }
+    }
+}
+</pre>
+</code>
+</details>
+
+
+<details>
+<summary> GET /api/v0/users </summary>
+
+![Registration Page](images/registration_page.png)
+
+
+## Request:
+
+<pre>
+<code>
+POST /api/v0/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "whatever@example.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
+</pre>
+</code>
+
+## Response:
+
+<pre>
+<code>
+
+status: 201
+body:
+
+{
+  "data": {
+    "type": "users",
+    "id": "1",
+    "attributes": {
+      "email": "whatever@example.com",
+      "api_key": "t1h2i3s4_i5s6_l7e8g9i10t11"
+    }
+  }
+}
+
+</pre>
+</code>
+</details>
+
+
+<details>
+<summary> POST /api/v0/sessions </summary>
+
+![Registration Page](images/login.png)
+
+
+## Request:
+
+<pre>
+<code>
+
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "whatever@example.com",
+  "password": "password"
+}
+
+</pre>
+</code>
+
+## Response:
+
+<pre>
+<code>
+
+status: 200
+body:
+
+{
+  "data": {
+    "type": "users",
+    "id": "1",
+    "attributes": {
+      "email": "whatever@example.com",
+      "api_key": "t1h2i3s4_i5s6_l7e8g9i10t11"
+    }
+  }
+}
+
+</pre>
+</code>
+</details>
+
+
+<details>
+<summary> POST /api/v0/road_trip </summary>
+
+![Registration Page](images/road_trip.png)
+
+
+## Request:
+
+<pre>
+<code>
+
+Content-Type: application/json
+Accept: application/json
+
+body:
+
+{
+  "origin": "Cincinatti,OH",
+  "destination": "Chicago,IL",
+  "api_key": "t1h2i3s4_i5s6_l7e8g9i10t11"
+}
+
+</pre>
+</code>
+
+## Response:
+
+<pre>
+<code>
+
+status: 200
+body:
+
+{
+    "data": {
+        "id": null,
+        "type": "road_trip",
+        "attributes": {
+            "start_city": "Cincinatti,OH",
+            "end_city": "Chicago,IL",
+            "travel_time": "4h42m",
+            "weather_at_eta": {
+                "datetime": "2023-04-26 07:29:16",
+                "temperature": "37.8F",
+                "condition": "Clear"
+            }
         }
     }
 }
