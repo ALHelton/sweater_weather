@@ -1,14 +1,15 @@
 require "rails_helper"
 
 RSpec.describe WeatherService do
+  before do
+    VCR.use_cassette("WeatherService") do
+      service
+    end
+  end
+
   describe "get_forcast_by_coordinates" do
     let(:service) { WeatherService.new.fiveday_forecast_coords("39.742043", "-104.991531") }
 
-    before do
-      VCR.use_cassette("WeatherService") do
-        service
-      end
-    end
 
     it "establishes a connection to get forcast by coordinates" do
       expect(service).to be_a(Hash)
