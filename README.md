@@ -68,7 +68,7 @@ $ bundle exec figaro install
 
 ## Endpoints
 <details>
-<summary> `GET '/api/v0/forecast?location=#{params}'`
+<summary> `GET '/api/v0/forecast?location=#{params}'` </summary>
 
 Params:
 
