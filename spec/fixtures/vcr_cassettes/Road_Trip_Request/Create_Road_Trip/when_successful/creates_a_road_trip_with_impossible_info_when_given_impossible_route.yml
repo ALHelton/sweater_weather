@@ -1042,4 +1042,1132 @@ http_interactions:
         22:00","temp_f":71.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
         23:00","temp_f":70.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]}]}}'
   recorded_at: Wed, 26 Apr 2023 06:11:35 GMT
+- request:
+    method: get
+    uri: http://api.weatherapi.com/v1/forecast.json?days=5&key=api_key&q=-22.91216,-43.17501
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 26 Apr 2023 06:47:35 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cache-Control:
+      - public, max-age=180
+      Cdn-Proxyver:
+      - '1.03'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2023 06:44:44
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 737eddbc3f9158ec18d81799e8a1bfa8
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Rio De Janeiro","region":"Rio de Janeiro","country":"Brazil","lat":-22.91,"lon":-43.18,"tz_id":"America/Sao_Paulo","localtime_epoch":1682491484,"localtime":"2023-04-26
+        3:44"},"current":{"last_updated":"2023-04-26 03:30","temp_f":71.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"},"humidity":94,"feelslike_f":76.1,"vis_miles":6.0,"uv":1.0},"forecast":{"forecastday":[{"date":"2023-04-26","day":{"maxtemp_f":86.9,"mintemp_f":69.4,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:10
+        AM","sunset":"05:31 PM"},"hour":[{"time":"2023-04-26 00:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        01:00","temp_f":70.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        02:00","temp_f":70.3,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-26
+        03:00","temp_f":70.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-26
+        04:00","temp_f":69.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        05:00","temp_f":69.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        06:00","temp_f":69.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        07:00","temp_f":70.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        08:00","temp_f":72.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        09:00","temp_f":75.7,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        10:00","temp_f":78.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        11:00","temp_f":85.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        12:00","temp_f":86.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        13:00","temp_f":87.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        14:00","temp_f":87.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        15:00","temp_f":86.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        16:00","temp_f":84.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-26
+        17:00","temp_f":81.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-26
+        18:00","temp_f":76.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        19:00","temp_f":76.5,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        20:00","temp_f":75.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        21:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-26
+        22:00","temp_f":73.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-26
+        23:00","temp_f":72.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}}]},{"date":"2023-04-27","day":{"maxtemp_f":84.0,"mintemp_f":70.5,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:10
+        AM","sunset":"05:30 PM"},"hour":[{"time":"2023-04-27 00:00","temp_f":72.3,"condition":{"text":"Light
+        rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        01:00","temp_f":71.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        02:00","temp_f":71.2,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        03:00","temp_f":71.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        04:00","temp_f":71.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-27
+        05:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        06:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        07:00","temp_f":72.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        08:00","temp_f":74.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        09:00","temp_f":77.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        10:00","temp_f":79.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        11:00","temp_f":83.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        12:00","temp_f":81.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        13:00","temp_f":83.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        14:00","temp_f":81.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        15:00","temp_f":78.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        16:00","temp_f":77.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-27
+        17:00","temp_f":75.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-27
+        18:00","temp_f":75.4,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        19:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        20:00","temp_f":73.8,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        21:00","temp_f":73.6,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        22:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        23:00","temp_f":72.9,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}}]},{"date":"2023-04-28","day":{"maxtemp_f":77.2,"mintemp_f":72.1,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:11
+        AM","sunset":"05:29 PM"},"hour":[{"time":"2023-04-28 00:00","temp_f":72.3,"condition":{"text":"Light
+        rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-28
+        01:00","temp_f":72.0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-28
+        02:00","temp_f":72.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-28
+        03:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        04:00","temp_f":71.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        05:00","temp_f":71.2,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-28
+        06:00","temp_f":71.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        07:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        08:00","temp_f":72.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        09:00","temp_f":73.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        10:00","temp_f":74.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        11:00","temp_f":75.9,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        12:00","temp_f":76.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        13:00","temp_f":77.2,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        14:00","temp_f":76.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        15:00","temp_f":76.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        16:00","temp_f":75.6,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        17:00","temp_f":74.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        18:00","temp_f":74.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-28
+        19:00","temp_f":74.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        20:00","temp_f":73.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        21:00","temp_f":73.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        22:00","temp_f":72.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        23:00","temp_f":72.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]},{"date":"2023-04-29","day":{"maxtemp_f":79.9,"mintemp_f":69.1,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:11
+        AM","sunset":"05:29 PM"},"hour":[{"time":"2023-04-29 00:00","temp_f":72.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        01:00","temp_f":71.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-29
+        02:00","temp_f":71.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        03:00","temp_f":70.9,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-29
+        04:00","temp_f":70.5,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        05:00","temp_f":70.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        06:00","temp_f":70.3,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        07:00","temp_f":70.5,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        08:00","temp_f":72.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        09:00","temp_f":73.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        10:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        11:00","temp_f":75.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        12:00","temp_f":75.7,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        13:00","temp_f":75.7,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        14:00","temp_f":75.6,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        15:00","temp_f":75.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        16:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        17:00","temp_f":74.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        18:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        19:00","temp_f":72.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        20:00","temp_f":72.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        21:00","temp_f":72.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        22:00","temp_f":71.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        23:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}}]},{"date":"2023-04-30","day":{"maxtemp_f":79.5,"mintemp_f":68.7,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:12
+        AM","sunset":"05:28 PM"},"hour":[{"time":"2023-04-30 00:00","temp_f":70.9,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        01:00","temp_f":70.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        02:00","temp_f":70.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        03:00","temp_f":70.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        04:00","temp_f":69.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        05:00","temp_f":69.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        06:00","temp_f":69.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        07:00","temp_f":69.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        08:00","temp_f":71.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        09:00","temp_f":73.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        10:00","temp_f":74.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        11:00","temp_f":75.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        12:00","temp_f":77.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        13:00","temp_f":76.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        14:00","temp_f":76.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        15:00","temp_f":76.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        16:00","temp_f":75.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        17:00","temp_f":74.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        18:00","temp_f":73.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        19:00","temp_f":72.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        20:00","temp_f":72.1,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        21:00","temp_f":71.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        22:00","temp_f":71.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        23:00","temp_f":70.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]}]}}'
+  recorded_at: Wed, 26 Apr 2023 06:47:35 GMT
+- request:
+    method: get
+    uri: http://api.weatherapi.com/v1/forecast.json?days=5&key=api_key&q=-22.91216,-43.17501
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 26 Apr 2023 06:48:00 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cache-Control:
+      - public, max-age=180
+      Cdn-Proxyver:
+      - '1.03'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2023 06:48:00
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - ee08e1c3d12d6a9f456dc802594f9a8a
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Rio De Janeiro","region":"Rio de Janeiro","country":"Brazil","lat":-22.91,"lon":-43.18,"tz_id":"America/Sao_Paulo","localtime_epoch":1682491680,"localtime":"2023-04-26
+        3:48"},"current":{"last_updated":"2023-04-26 03:45","temp_f":71.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"},"humidity":94,"feelslike_f":76.1,"vis_miles":6.0,"uv":1.0},"forecast":{"forecastday":[{"date":"2023-04-26","day":{"maxtemp_f":86.9,"mintemp_f":69.4,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:10
+        AM","sunset":"05:31 PM"},"hour":[{"time":"2023-04-26 00:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        01:00","temp_f":70.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        02:00","temp_f":70.3,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-26
+        03:00","temp_f":70.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-26
+        04:00","temp_f":69.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        05:00","temp_f":69.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        06:00","temp_f":69.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        07:00","temp_f":70.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        08:00","temp_f":72.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        09:00","temp_f":75.7,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        10:00","temp_f":78.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        11:00","temp_f":85.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        12:00","temp_f":86.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        13:00","temp_f":87.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        14:00","temp_f":87.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        15:00","temp_f":86.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        16:00","temp_f":84.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-26
+        17:00","temp_f":81.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-26
+        18:00","temp_f":76.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        19:00","temp_f":76.5,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        20:00","temp_f":75.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        21:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-26
+        22:00","temp_f":73.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-26
+        23:00","temp_f":72.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}}]},{"date":"2023-04-27","day":{"maxtemp_f":84.0,"mintemp_f":70.5,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:10
+        AM","sunset":"05:30 PM"},"hour":[{"time":"2023-04-27 00:00","temp_f":72.3,"condition":{"text":"Light
+        rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        01:00","temp_f":71.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        02:00","temp_f":71.2,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        03:00","temp_f":71.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        04:00","temp_f":71.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-27
+        05:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        06:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        07:00","temp_f":72.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        08:00","temp_f":74.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        09:00","temp_f":77.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        10:00","temp_f":79.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        11:00","temp_f":83.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        12:00","temp_f":81.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        13:00","temp_f":83.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        14:00","temp_f":81.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        15:00","temp_f":78.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        16:00","temp_f":77.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-27
+        17:00","temp_f":75.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-27
+        18:00","temp_f":75.4,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        19:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        20:00","temp_f":73.8,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        21:00","temp_f":73.6,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        22:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        23:00","temp_f":72.9,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}}]},{"date":"2023-04-28","day":{"maxtemp_f":77.2,"mintemp_f":72.1,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:11
+        AM","sunset":"05:29 PM"},"hour":[{"time":"2023-04-28 00:00","temp_f":72.3,"condition":{"text":"Light
+        rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-28
+        01:00","temp_f":72.0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-28
+        02:00","temp_f":72.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-28
+        03:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        04:00","temp_f":71.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        05:00","temp_f":71.2,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-28
+        06:00","temp_f":71.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        07:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        08:00","temp_f":72.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        09:00","temp_f":73.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        10:00","temp_f":74.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        11:00","temp_f":75.9,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        12:00","temp_f":76.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        13:00","temp_f":77.2,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        14:00","temp_f":76.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        15:00","temp_f":76.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        16:00","temp_f":75.6,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        17:00","temp_f":74.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        18:00","temp_f":74.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-28
+        19:00","temp_f":74.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        20:00","temp_f":73.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        21:00","temp_f":73.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        22:00","temp_f":72.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        23:00","temp_f":72.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]},{"date":"2023-04-29","day":{"maxtemp_f":79.9,"mintemp_f":69.1,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:11
+        AM","sunset":"05:29 PM"},"hour":[{"time":"2023-04-29 00:00","temp_f":72.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        01:00","temp_f":71.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-29
+        02:00","temp_f":71.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        03:00","temp_f":70.9,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-29
+        04:00","temp_f":70.5,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        05:00","temp_f":70.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        06:00","temp_f":70.3,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        07:00","temp_f":70.5,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        08:00","temp_f":72.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        09:00","temp_f":73.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        10:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        11:00","temp_f":75.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        12:00","temp_f":75.7,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        13:00","temp_f":75.7,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        14:00","temp_f":75.6,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        15:00","temp_f":75.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        16:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        17:00","temp_f":74.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        18:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        19:00","temp_f":72.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        20:00","temp_f":72.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        21:00","temp_f":72.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        22:00","temp_f":71.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        23:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}}]},{"date":"2023-04-30","day":{"maxtemp_f":79.5,"mintemp_f":68.7,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:12
+        AM","sunset":"05:28 PM"},"hour":[{"time":"2023-04-30 00:00","temp_f":70.9,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        01:00","temp_f":70.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        02:00","temp_f":70.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        03:00","temp_f":70.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        04:00","temp_f":69.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        05:00","temp_f":69.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        06:00","temp_f":69.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        07:00","temp_f":69.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        08:00","temp_f":71.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        09:00","temp_f":73.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        10:00","temp_f":74.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        11:00","temp_f":75.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        12:00","temp_f":77.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        13:00","temp_f":76.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        14:00","temp_f":76.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        15:00","temp_f":76.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        16:00","temp_f":75.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        17:00","temp_f":74.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        18:00","temp_f":73.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        19:00","temp_f":72.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        20:00","temp_f":72.1,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        21:00","temp_f":71.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        22:00","temp_f":71.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        23:00","temp_f":70.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]}]}}'
+  recorded_at: Wed, 26 Apr 2023 06:48:00 GMT
+- request:
+    method: get
+    uri: http://api.weatherapi.com/v1/forecast.json?days=5&key=api_key&q=-22.91216,-43.17501
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 26 Apr 2023 07:02:26 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cache-Control:
+      - public, max-age=180
+      Cdn-Proxyver:
+      - '1.03'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2023 07:02:26
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 35c008fc4280a865fac0deb0f1b118ee
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Rio De Janeiro","region":"Rio de Janeiro","country":"Brazil","lat":-22.91,"lon":-43.18,"tz_id":"America/Sao_Paulo","localtime_epoch":1682492546,"localtime":"2023-04-26
+        4:02"},"current":{"last_updated":"2023-04-26 04:00","temp_f":71.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"},"humidity":94,"feelslike_f":76.1,"vis_miles":6.0,"uv":1.0},"forecast":{"forecastday":[{"date":"2023-04-26","day":{"maxtemp_f":86.9,"mintemp_f":69.4,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:10
+        AM","sunset":"05:31 PM"},"hour":[{"time":"2023-04-26 00:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        01:00","temp_f":70.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        02:00","temp_f":70.3,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-26
+        03:00","temp_f":70.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-26
+        04:00","temp_f":69.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        05:00","temp_f":69.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        06:00","temp_f":69.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        07:00","temp_f":70.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        08:00","temp_f":72.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        09:00","temp_f":75.7,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        10:00","temp_f":78.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        11:00","temp_f":85.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        12:00","temp_f":86.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        13:00","temp_f":87.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        14:00","temp_f":87.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        15:00","temp_f":86.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        16:00","temp_f":84.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-26
+        17:00","temp_f":81.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-26
+        18:00","temp_f":76.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        19:00","temp_f":76.5,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        20:00","temp_f":75.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        21:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-26
+        22:00","temp_f":73.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-26
+        23:00","temp_f":72.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}}]},{"date":"2023-04-27","day":{"maxtemp_f":84.0,"mintemp_f":70.5,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:10
+        AM","sunset":"05:30 PM"},"hour":[{"time":"2023-04-27 00:00","temp_f":72.3,"condition":{"text":"Light
+        rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        01:00","temp_f":71.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        02:00","temp_f":71.2,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        03:00","temp_f":71.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        04:00","temp_f":71.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-27
+        05:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        06:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        07:00","temp_f":72.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        08:00","temp_f":74.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        09:00","temp_f":77.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        10:00","temp_f":79.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        11:00","temp_f":83.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        12:00","temp_f":81.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        13:00","temp_f":83.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        14:00","temp_f":81.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        15:00","temp_f":78.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        16:00","temp_f":77.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-27
+        17:00","temp_f":75.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-27
+        18:00","temp_f":75.4,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        19:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        20:00","temp_f":73.8,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        21:00","temp_f":73.6,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        22:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        23:00","temp_f":72.9,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}}]},{"date":"2023-04-28","day":{"maxtemp_f":77.2,"mintemp_f":72.1,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:11
+        AM","sunset":"05:29 PM"},"hour":[{"time":"2023-04-28 00:00","temp_f":72.3,"condition":{"text":"Light
+        rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-28
+        01:00","temp_f":72.0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-28
+        02:00","temp_f":72.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-28
+        03:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        04:00","temp_f":71.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        05:00","temp_f":71.2,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-28
+        06:00","temp_f":71.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        07:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        08:00","temp_f":72.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        09:00","temp_f":73.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        10:00","temp_f":74.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        11:00","temp_f":75.9,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        12:00","temp_f":76.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        13:00","temp_f":77.2,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        14:00","temp_f":76.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        15:00","temp_f":76.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        16:00","temp_f":75.6,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        17:00","temp_f":74.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        18:00","temp_f":74.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-28
+        19:00","temp_f":74.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        20:00","temp_f":73.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        21:00","temp_f":73.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        22:00","temp_f":72.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        23:00","temp_f":72.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]},{"date":"2023-04-29","day":{"maxtemp_f":79.9,"mintemp_f":69.1,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:11
+        AM","sunset":"05:29 PM"},"hour":[{"time":"2023-04-29 00:00","temp_f":72.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        01:00","temp_f":71.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-29
+        02:00","temp_f":71.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        03:00","temp_f":70.9,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-29
+        04:00","temp_f":70.5,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        05:00","temp_f":70.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        06:00","temp_f":70.3,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        07:00","temp_f":70.5,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        08:00","temp_f":72.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        09:00","temp_f":73.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        10:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        11:00","temp_f":75.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        12:00","temp_f":75.7,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        13:00","temp_f":75.7,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        14:00","temp_f":75.6,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        15:00","temp_f":75.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        16:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        17:00","temp_f":74.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        18:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        19:00","temp_f":72.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        20:00","temp_f":72.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        21:00","temp_f":72.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        22:00","temp_f":71.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        23:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}}]},{"date":"2023-04-30","day":{"maxtemp_f":79.5,"mintemp_f":68.7,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:12
+        AM","sunset":"05:28 PM"},"hour":[{"time":"2023-04-30 00:00","temp_f":70.9,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        01:00","temp_f":70.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        02:00","temp_f":70.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        03:00","temp_f":70.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        04:00","temp_f":69.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        05:00","temp_f":69.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        06:00","temp_f":69.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        07:00","temp_f":69.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        08:00","temp_f":71.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        09:00","temp_f":73.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        10:00","temp_f":74.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        11:00","temp_f":75.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        12:00","temp_f":77.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        13:00","temp_f":76.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        14:00","temp_f":76.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        15:00","temp_f":76.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        16:00","temp_f":75.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        17:00","temp_f":74.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        18:00","temp_f":73.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        19:00","temp_f":72.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        20:00","temp_f":72.1,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        21:00","temp_f":71.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        22:00","temp_f":71.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        23:00","temp_f":70.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]}]}}'
+  recorded_at: Wed, 26 Apr 2023 07:02:26 GMT
+- request:
+    method: get
+    uri: http://api.weatherapi.com/v1/forecast.json?days=5&key=api_key&q=-22.91216,-43.17501
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 26 Apr 2023 07:03:52 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1068
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cache-Control:
+      - public, max-age=180
+      Cdn-Proxyver:
+      - '1.03'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2023 07:02:26
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - b072053e17b9ea5204f6ea7cc39378bd
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Rio De Janeiro","region":"Rio de Janeiro","country":"Brazil","lat":-22.91,"lon":-43.18,"tz_id":"America/Sao_Paulo","localtime_epoch":1682492546,"localtime":"2023-04-26
+        4:02"},"current":{"last_updated":"2023-04-26 04:00","temp_f":71.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"},"humidity":94,"feelslike_f":76.1,"vis_miles":6.0,"uv":1.0},"forecast":{"forecastday":[{"date":"2023-04-26","day":{"maxtemp_f":86.9,"mintemp_f":69.4,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:10
+        AM","sunset":"05:31 PM"},"hour":[{"time":"2023-04-26 00:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        01:00","temp_f":70.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        02:00","temp_f":70.3,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-26
+        03:00","temp_f":70.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-26
+        04:00","temp_f":69.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        05:00","temp_f":69.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        06:00","temp_f":69.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        07:00","temp_f":70.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        08:00","temp_f":72.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        09:00","temp_f":75.7,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        10:00","temp_f":78.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        11:00","temp_f":85.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        12:00","temp_f":86.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        13:00","temp_f":87.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        14:00","temp_f":87.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        15:00","temp_f":86.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        16:00","temp_f":84.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-26
+        17:00","temp_f":81.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-26
+        18:00","temp_f":76.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        19:00","temp_f":76.5,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        20:00","temp_f":75.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        21:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-26
+        22:00","temp_f":73.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-26
+        23:00","temp_f":72.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}}]},{"date":"2023-04-27","day":{"maxtemp_f":84.0,"mintemp_f":70.5,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:10
+        AM","sunset":"05:30 PM"},"hour":[{"time":"2023-04-27 00:00","temp_f":72.3,"condition":{"text":"Light
+        rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        01:00","temp_f":71.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        02:00","temp_f":71.2,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        03:00","temp_f":71.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        04:00","temp_f":71.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-27
+        05:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        06:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        07:00","temp_f":72.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        08:00","temp_f":74.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        09:00","temp_f":77.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        10:00","temp_f":79.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        11:00","temp_f":83.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        12:00","temp_f":81.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        13:00","temp_f":83.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        14:00","temp_f":81.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        15:00","temp_f":78.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        16:00","temp_f":77.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-27
+        17:00","temp_f":75.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-27
+        18:00","temp_f":75.4,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        19:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        20:00","temp_f":73.8,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        21:00","temp_f":73.6,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        22:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        23:00","temp_f":72.9,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}}]},{"date":"2023-04-28","day":{"maxtemp_f":77.2,"mintemp_f":72.1,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:11
+        AM","sunset":"05:29 PM"},"hour":[{"time":"2023-04-28 00:00","temp_f":72.3,"condition":{"text":"Light
+        rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-28
+        01:00","temp_f":72.0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-28
+        02:00","temp_f":72.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-28
+        03:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        04:00","temp_f":71.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        05:00","temp_f":71.2,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-28
+        06:00","temp_f":71.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        07:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        08:00","temp_f":72.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        09:00","temp_f":73.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        10:00","temp_f":74.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        11:00","temp_f":75.9,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        12:00","temp_f":76.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        13:00","temp_f":77.2,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        14:00","temp_f":76.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        15:00","temp_f":76.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        16:00","temp_f":75.6,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        17:00","temp_f":74.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        18:00","temp_f":74.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-28
+        19:00","temp_f":74.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        20:00","temp_f":73.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        21:00","temp_f":73.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        22:00","temp_f":72.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        23:00","temp_f":72.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]},{"date":"2023-04-29","day":{"maxtemp_f":79.9,"mintemp_f":69.1,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:11
+        AM","sunset":"05:29 PM"},"hour":[{"time":"2023-04-29 00:00","temp_f":72.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        01:00","temp_f":71.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-29
+        02:00","temp_f":71.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        03:00","temp_f":70.9,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-29
+        04:00","temp_f":70.5,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        05:00","temp_f":70.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        06:00","temp_f":70.3,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        07:00","temp_f":70.5,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        08:00","temp_f":72.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        09:00","temp_f":73.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        10:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        11:00","temp_f":75.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        12:00","temp_f":75.7,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        13:00","temp_f":75.7,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        14:00","temp_f":75.6,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        15:00","temp_f":75.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        16:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        17:00","temp_f":74.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        18:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        19:00","temp_f":72.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        20:00","temp_f":72.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        21:00","temp_f":72.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        22:00","temp_f":71.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        23:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}}]},{"date":"2023-04-30","day":{"maxtemp_f":79.5,"mintemp_f":68.7,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:12
+        AM","sunset":"05:28 PM"},"hour":[{"time":"2023-04-30 00:00","temp_f":70.9,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        01:00","temp_f":70.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        02:00","temp_f":70.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        03:00","temp_f":70.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        04:00","temp_f":69.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        05:00","temp_f":69.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        06:00","temp_f":69.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        07:00","temp_f":69.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        08:00","temp_f":71.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        09:00","temp_f":73.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        10:00","temp_f":74.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        11:00","temp_f":75.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        12:00","temp_f":77.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        13:00","temp_f":76.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        14:00","temp_f":76.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        15:00","temp_f":76.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        16:00","temp_f":75.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        17:00","temp_f":74.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        18:00","temp_f":73.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        19:00","temp_f":72.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        20:00","temp_f":72.1,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        21:00","temp_f":71.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        22:00","temp_f":71.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        23:00","temp_f":70.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]}]}}'
+  recorded_at: Wed, 26 Apr 2023 07:03:51 GMT
+- request:
+    method: get
+    uri: http://api.weatherapi.com/v1/forecast.json?days=5&key=api_key&q=-22.91216,-43.17501
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 26 Apr 2023 07:04:35 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cache-Control:
+      - public, max-age=180
+      Cdn-Proxyver:
+      - '1.03'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2023 07:02:26
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - bbd0f3bd4e252b37fec4f7bfeeda0388
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Rio De Janeiro","region":"Rio de Janeiro","country":"Brazil","lat":-22.91,"lon":-43.18,"tz_id":"America/Sao_Paulo","localtime_epoch":1682492546,"localtime":"2023-04-26
+        4:02"},"current":{"last_updated":"2023-04-26 04:00","temp_f":71.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"},"humidity":94,"feelslike_f":76.1,"vis_miles":6.0,"uv":1.0},"forecast":{"forecastday":[{"date":"2023-04-26","day":{"maxtemp_f":86.9,"mintemp_f":69.4,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:10
+        AM","sunset":"05:31 PM"},"hour":[{"time":"2023-04-26 00:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        01:00","temp_f":70.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        02:00","temp_f":70.3,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-26
+        03:00","temp_f":70.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-26
+        04:00","temp_f":69.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        05:00","temp_f":69.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        06:00","temp_f":69.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        07:00","temp_f":70.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        08:00","temp_f":72.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        09:00","temp_f":75.7,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        10:00","temp_f":78.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        11:00","temp_f":85.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        12:00","temp_f":86.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        13:00","temp_f":87.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        14:00","temp_f":87.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        15:00","temp_f":86.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        16:00","temp_f":84.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-26
+        17:00","temp_f":81.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-26
+        18:00","temp_f":76.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        19:00","temp_f":76.5,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        20:00","temp_f":75.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        21:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-26
+        22:00","temp_f":73.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-26
+        23:00","temp_f":72.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}}]},{"date":"2023-04-27","day":{"maxtemp_f":84.0,"mintemp_f":70.5,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:10
+        AM","sunset":"05:30 PM"},"hour":[{"time":"2023-04-27 00:00","temp_f":72.3,"condition":{"text":"Light
+        rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        01:00","temp_f":71.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        02:00","temp_f":71.2,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        03:00","temp_f":71.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        04:00","temp_f":71.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-27
+        05:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        06:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        07:00","temp_f":72.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        08:00","temp_f":74.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        09:00","temp_f":77.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        10:00","temp_f":79.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        11:00","temp_f":83.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        12:00","temp_f":81.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        13:00","temp_f":83.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        14:00","temp_f":81.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        15:00","temp_f":78.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        16:00","temp_f":77.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-27
+        17:00","temp_f":75.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-27
+        18:00","temp_f":75.4,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        19:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        20:00","temp_f":73.8,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        21:00","temp_f":73.6,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        22:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        23:00","temp_f":72.9,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}}]},{"date":"2023-04-28","day":{"maxtemp_f":77.2,"mintemp_f":72.1,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:11
+        AM","sunset":"05:29 PM"},"hour":[{"time":"2023-04-28 00:00","temp_f":72.3,"condition":{"text":"Light
+        rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-28
+        01:00","temp_f":72.0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-28
+        02:00","temp_f":72.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-28
+        03:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        04:00","temp_f":71.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        05:00","temp_f":71.2,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-28
+        06:00","temp_f":71.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        07:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        08:00","temp_f":72.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        09:00","temp_f":73.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        10:00","temp_f":74.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        11:00","temp_f":75.9,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        12:00","temp_f":76.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        13:00","temp_f":77.2,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        14:00","temp_f":76.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        15:00","temp_f":76.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        16:00","temp_f":75.6,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        17:00","temp_f":74.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        18:00","temp_f":74.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-28
+        19:00","temp_f":74.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        20:00","temp_f":73.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        21:00","temp_f":73.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        22:00","temp_f":72.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        23:00","temp_f":72.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]},{"date":"2023-04-29","day":{"maxtemp_f":79.9,"mintemp_f":69.1,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:11
+        AM","sunset":"05:29 PM"},"hour":[{"time":"2023-04-29 00:00","temp_f":72.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        01:00","temp_f":71.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-29
+        02:00","temp_f":71.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        03:00","temp_f":70.9,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-29
+        04:00","temp_f":70.5,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        05:00","temp_f":70.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        06:00","temp_f":70.3,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        07:00","temp_f":70.5,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        08:00","temp_f":72.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        09:00","temp_f":73.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        10:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        11:00","temp_f":75.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        12:00","temp_f":75.7,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        13:00","temp_f":75.7,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        14:00","temp_f":75.6,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        15:00","temp_f":75.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        16:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        17:00","temp_f":74.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        18:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        19:00","temp_f":72.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        20:00","temp_f":72.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        21:00","temp_f":72.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        22:00","temp_f":71.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        23:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}}]},{"date":"2023-04-30","day":{"maxtemp_f":79.5,"mintemp_f":68.7,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:12
+        AM","sunset":"05:28 PM"},"hour":[{"time":"2023-04-30 00:00","temp_f":70.9,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        01:00","temp_f":70.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        02:00","temp_f":70.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        03:00","temp_f":70.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        04:00","temp_f":69.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        05:00","temp_f":69.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        06:00","temp_f":69.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        07:00","temp_f":69.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        08:00","temp_f":71.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        09:00","temp_f":73.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        10:00","temp_f":74.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        11:00","temp_f":75.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        12:00","temp_f":77.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        13:00","temp_f":76.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        14:00","temp_f":76.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        15:00","temp_f":76.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        16:00","temp_f":75.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        17:00","temp_f":74.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        18:00","temp_f":73.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        19:00","temp_f":72.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        20:00","temp_f":72.1,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        21:00","temp_f":71.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        22:00","temp_f":71.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        23:00","temp_f":70.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]}]}}'
+  recorded_at: Wed, 26 Apr 2023 07:04:35 GMT
+- request:
+    method: get
+    uri: http://api.weatherapi.com/v1/forecast.json?days=5&key=api_key&q=-22.91216,-43.17501
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 26 Apr 2023 07:05:09 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-1029
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cache-Control:
+      - public, max-age=180
+      Cdn-Proxyver:
+      - '1.03'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2023 07:02:26
+      Cdn-Edgestorageid:
+      - '718'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - e765908d3107299754a2f658bfbf14b5
+      Cdn-Cache:
+      - HIT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Rio De Janeiro","region":"Rio de Janeiro","country":"Brazil","lat":-22.91,"lon":-43.18,"tz_id":"America/Sao_Paulo","localtime_epoch":1682492546,"localtime":"2023-04-26
+        4:02"},"current":{"last_updated":"2023-04-26 04:00","temp_f":71.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"},"humidity":94,"feelslike_f":76.1,"vis_miles":6.0,"uv":1.0},"forecast":{"forecastday":[{"date":"2023-04-26","day":{"maxtemp_f":86.9,"mintemp_f":69.4,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:10
+        AM","sunset":"05:31 PM"},"hour":[{"time":"2023-04-26 00:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        01:00","temp_f":70.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        02:00","temp_f":70.3,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-26
+        03:00","temp_f":70.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-26
+        04:00","temp_f":69.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        05:00","temp_f":69.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        06:00","temp_f":69.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        07:00","temp_f":70.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        08:00","temp_f":72.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        09:00","temp_f":75.7,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        10:00","temp_f":78.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        11:00","temp_f":85.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        12:00","temp_f":86.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        13:00","temp_f":87.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        14:00","temp_f":87.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        15:00","temp_f":86.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        16:00","temp_f":84.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-26
+        17:00","temp_f":81.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-26
+        18:00","temp_f":76.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        19:00","temp_f":76.5,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        20:00","temp_f":75.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-26
+        21:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-26
+        22:00","temp_f":73.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-26
+        23:00","temp_f":72.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}}]},{"date":"2023-04-27","day":{"maxtemp_f":84.0,"mintemp_f":70.5,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:10
+        AM","sunset":"05:30 PM"},"hour":[{"time":"2023-04-27 00:00","temp_f":72.3,"condition":{"text":"Light
+        rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        01:00","temp_f":71.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        02:00","temp_f":71.2,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        03:00","temp_f":71.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        04:00","temp_f":71.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-27
+        05:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        06:00","temp_f":71.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        07:00","temp_f":72.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        08:00","temp_f":74.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        09:00","temp_f":77.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        10:00","temp_f":79.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        11:00","temp_f":83.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        12:00","temp_f":81.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        13:00","temp_f":83.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        14:00","temp_f":81.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        15:00","temp_f":78.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        16:00","temp_f":77.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-27
+        17:00","temp_f":75.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-27
+        18:00","temp_f":75.4,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        19:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        20:00","temp_f":73.8,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        21:00","temp_f":73.6,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        22:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-27
+        23:00","temp_f":72.9,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}}]},{"date":"2023-04-28","day":{"maxtemp_f":77.2,"mintemp_f":72.1,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:11
+        AM","sunset":"05:29 PM"},"hour":[{"time":"2023-04-28 00:00","temp_f":72.3,"condition":{"text":"Light
+        rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-28
+        01:00","temp_f":72.0,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-28
+        02:00","temp_f":72.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-28
+        03:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        04:00","temp_f":71.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        05:00","temp_f":71.2,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-28
+        06:00","temp_f":71.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        07:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        08:00","temp_f":72.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        09:00","temp_f":73.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        10:00","temp_f":74.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        11:00","temp_f":75.9,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        12:00","temp_f":76.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        13:00","temp_f":77.2,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        14:00","temp_f":76.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        15:00","temp_f":76.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-28
+        16:00","temp_f":75.6,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        17:00","temp_f":74.8,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-28
+        18:00","temp_f":74.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-28
+        19:00","temp_f":74.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        20:00","temp_f":73.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        21:00","temp_f":73.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        22:00","temp_f":72.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        23:00","temp_f":72.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]},{"date":"2023-04-29","day":{"maxtemp_f":79.9,"mintemp_f":69.1,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:11
+        AM","sunset":"05:29 PM"},"hour":[{"time":"2023-04-29 00:00","temp_f":72.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        01:00","temp_f":71.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-29
+        02:00","temp_f":71.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        03:00","temp_f":70.9,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-29
+        04:00","temp_f":70.5,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        05:00","temp_f":70.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        06:00","temp_f":70.3,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        07:00","temp_f":70.5,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        08:00","temp_f":72.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        09:00","temp_f":73.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        10:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        11:00","temp_f":75.7,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        12:00","temp_f":75.7,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        13:00","temp_f":75.7,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        14:00","temp_f":75.6,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        15:00","temp_f":75.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/day/353.png"}},{"time":"2023-04-29
+        16:00","temp_f":74.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        17:00","temp_f":74.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        18:00","temp_f":73.2,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        19:00","temp_f":72.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        20:00","temp_f":72.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        21:00","temp_f":72.0,"condition":{"text":"Light rain shower","icon":"//cdn.weatherapi.com/weather/64x64/night/353.png"}},{"time":"2023-04-29
+        22:00","temp_f":71.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-29
+        23:00","temp_f":71.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}}]},{"date":"2023-04-30","day":{"maxtemp_f":79.5,"mintemp_f":68.7,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"06:12
+        AM","sunset":"05:28 PM"},"hour":[{"time":"2023-04-30 00:00","temp_f":70.9,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        01:00","temp_f":70.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        02:00","temp_f":70.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        03:00","temp_f":70.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        04:00","temp_f":69.6,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        05:00","temp_f":69.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        06:00","temp_f":69.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-30
+        07:00","temp_f":69.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        08:00","temp_f":71.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        09:00","temp_f":73.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        10:00","temp_f":74.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        11:00","temp_f":75.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        12:00","temp_f":77.0,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        13:00","temp_f":76.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        14:00","temp_f":76.6,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        15:00","temp_f":76.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        16:00","temp_f":75.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-30
+        17:00","temp_f":74.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-30
+        18:00","temp_f":73.4,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        19:00","temp_f":72.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        20:00","temp_f":72.1,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-30
+        21:00","temp_f":71.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        22:00","temp_f":71.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-30
+        23:00","temp_f":70.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]}]}}'
+  recorded_at: Wed, 26 Apr 2023 07:05:09 GMT
 recorded_with: VCR 6.1.0

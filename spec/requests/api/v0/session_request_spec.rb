@@ -12,7 +12,7 @@ RSpec.describe "Session Request" do
       "password": "password"
     }
 
-    @user = User.create!(
+    @user = User.create(
                         email: "whatever@example.com", 
                         password: "password", 
                         password_confirmation: "password")
