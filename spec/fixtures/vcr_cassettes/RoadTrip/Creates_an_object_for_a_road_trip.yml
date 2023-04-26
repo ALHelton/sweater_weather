@@ -1,0 +1,289 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.mapquestapi.com/directions/v2/route?from=Cincinatti,%20OH&key=api_key&to=Chicaco,%20IL
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 26 Apr 2023 04:54:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '18629'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-2628000:
+      - '15000'
+      X-Ratelimit-Remaining-2628000:
+      - '14880'
+      Ratelimit-Limit:
+      - '15000'
+      Ratelimit-Remaining:
+      - '14880'
+      Ratelimit-Reset:
+      - '2063102'
+      X-Powered-By:
+      - MapQuest
+      X-Request-Id:
+      - 7eb47270-e3ee-11ed-89aa-f99c572852dc
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Transaction-Count:
+      - all=3,geocoding=2,directions=1
+      Etag:
+      - W/"48c5-oPtD8woYaqrohELNs53gYlHUAaI"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyb3V0ZSI6eyJzZXNzaW9uSWQiOiJBSm9BNXdjQUFHNEFBQUFJQUFBQUZRQUFBTG9BQUFCNDJtUFl4Y0RBeU1UQXdNQ2VrVnFVYXBXY0cySF9UaHpJWmRCYnVMZUZTN3J1aFhPVXpmbm9qN1V2blBPQk5BTVdBTk9ZTExWTEdzVGYycDY1ak9IeV8zV09iYWRQeE00QTBxMUFtZ0VILU9fMTRzZ0dSaUREa1pISlpZVkFxMGVBUWhNTGtNdW9BQ1FjR0RnWWdISUNVTFdNVUZxSkFTVEdMTEhHQVFDUUhTZjhRYnItMHc6Y2FyIiwicmVhbFRpbWUiOjE2OTUyLCJkaXN0YW5jZSI6Mjk2LjI4NDcsInRpbWUiOjE2ODQ1LCJmb3JtYXR0ZWRUaW1lIjoiMDQ6NDA6NDUiLCJoYXNIaWdod2F5Ijp0cnVlLCJoYXNUb2xsUm9hZCI6dHJ1ZSwiaGFzQnJpZGdlIjp0cnVlLCJoYXNTZWFzb25hbENsb3N1cmUiOmZhbHNlLCJoYXNUdW5uZWwiOmZhbHNlLCJoYXNGZXJyeSI6ZmFsc2UsImhhc1VucGF2ZWQiOmZhbHNlLCJoYXNUaW1lZFJlc3RyaWN0aW9uIjpmYWxzZSwiaGFzQ291bnRyeUNyb3NzIjpmYWxzZSwibGVncyI6W3siaW5kZXgiOjAsImhhc1RvbGxSb2FkIjp0cnVlLCJoYXNIaWdod2F5Ijp0cnVlLCJoYXNCcmlkZ2UiOnRydWUsImhhc1VucGF2ZWQiOmZhbHNlLCJoYXNUdW5uZWwiOmZhbHNlLCJoYXNTZWFzb25hbENsb3N1cmUiOmZhbHNlLCJoYXNGZXJyeSI6ZmFsc2UsImhhc0NvdW50cnlDcm9zcyI6ZmFsc2UsImhhc1RpbWVkUmVzdHJpY3Rpb24iOmZhbHNlLCJkaXN0YW5jZSI6Mjk2LjI4NDcsInRpbWUiOjE2OTUyLCJmb3JtYXR0ZWRUaW1lIjoiMDQ6NDI6MzIiLCJvcmlnSW5kZXgiOjAsIm9yaWdOYXJyYXRpdmUiOiIiLCJkZXN0SW5kZXgiOjAsImRlc3ROYXJyYXRpdmUiOiIiLCJtYW5ldXZlcnMiOlt7ImluZGV4IjowLCJkaXN0YW5jZSI6MC4yMjkzLCJuYXJyYXRpdmUiOiJIZWFkIHRvd2FyZCBCcm9hZHdheSBTdCBvbiBHaWxiZXJ0IEF2ZSAoVVMtMjIpLiBHbyBmb3IgMC4yIG1pLiIsInRpbWUiOjQyLCJkaXJlY3Rpb24iOjYsImRpcmVjdGlvbk5hbWUiOiJTb3V0aHdlc3QiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDA6NDIiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM5LjEwNzEzMiwibG5nIjotODQuNTA0MTM0fSwidHVyblR5cGUiOjAsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbIlVTLTIyIiwiT0gtMyIsIkdpbGJlcnQgQXZlIl0sIm1hcFVybCI6Imh0dHBzOi8vd3d3Lm1hcHF1ZXN0YXBpLmNvbS9zdGF0aWNtYXAvdjUvbWFwP2tleT1hcGlfa2V5JnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9MzkuMTA3MTMyLC04NC41MDQxMzR8bWFya2VyLTF8fDM5LjEwNTM2MDAwMDAwMDAyLC04NC41MDcyNXxtYXJrZXItMnx8JmNlbnRlcj0zOS4xMDYyNDYwMDAwMDAwMSwtODQuNTA1NjkyJmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTE1JnNlc3Npb249QUpvQTV3Y0FBRzRBQUFBSUFBQUFGUUFBQUxvQUFBQjQybVBZeGNEQXlNVEF3TUNla1ZxVWFwV2NHMkhfVGh6SVpkQmJ1TGVGUzdydWhYT1V6Zm5vajdVdm5QT0JOQU1XQU5PWUxMVkxHc1RmMnA2NWpPSHlfM1dPYmFkUHhNNEEwcTFBbWdFSC1PXzE0c2dHUmlERGtaSEpaWVZBcTBlQVFoTUxrTXVvQUNRY0dEZ1lnSElDVUxXTVVGcUpBU1RHTExIR0FRQ1FIU2Y4UWJyLTB3OmNhciJ9LHsiaW5kZXgiOjEsImRpc3RhbmNlIjowLjE4MjEsIm5hcnJhdGl2ZSI6IkNvbnRpbnVlIG9uIDh0aCBTdCBFIChVUy0yMikgdG93YXJkIE9ILTMuIEdvIGZvciAwLjIgbWkuIiwidGltZSI6MzYsImRpcmVjdGlvbiI6NywiZGlyZWN0aW9uTmFtZSI6Ildlc3QiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDA6MzYiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM5LjEwNTM2MDAwMDAwMDAyLCJsbmciOi04NC41MDcyNX0sInR1cm5UeXBlIjowLCJhdHRyaWJ1dGVzIjowLCJpY29uVXJsIjoiIiwic3RyZWV0cyI6WyJVUy0yMiIsIk9ILTMiLCI4dGggU3QgRSIsIkUgOHRoIFN0Il0sIm1hcFVybCI6Imh0dHBzOi8vd3d3Lm1hcHF1ZXN0YXBpLmNvbS9zdGF0aWNtYXAvdjUvbWFwP2tleT1hcGlfa2V5JnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9MzkuMTA1MzYwMDAwMDAwMDIsLTg0LjUwNzI1fG1hcmtlci0yfHwzOS4xMDQ5MTAwMDAwMDAwMjUsLTg0LjUxMDU5MDAwMDAwMDAxfG1hcmtlci0zfHwmY2VudGVyPTM5LjEwNTEzNTAwMDAwMDAyLC04NC41MDg5MiZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT0xNSZzZXNzaW9uPUFKb0E1d2NBQUc0QUFBQUlBQUFBRlFBQUFMb0FBQUI0Mm1QWXhjREF5TVRBd01DZWtWcVVhcFdjRzJIX1RoeklaZEJidUxlRlM3cnVoWE9VemZub2o3VXZuUE9CTkFNV0FOT1lMTFZMR3NUZjJwNjVqT0h5XzNXT2JhZFB4TTRBMHExQW1nRUgtT18xNHNnR1JpRERrWkhKWllWQXEwZUFRaE1Ma011b0FDUWNHRGdZZ0hJQ1VMV01VRnFKQVNUR0xMSEdBUUNRSFNmOFFici0wdzpjYXIifSx7ImluZGV4IjoyLCJkaXN0YW5jZSI6MC4wNjc3LCJuYXJyYXRpdmUiOiJUdXJuIHJpZ2h0IG9udG8gTWFpbiBTdCAoVVMtMjIpLiBHbyBmb3IgMzU4IGZ0LiIsInRpbWUiOjI3LCJkaXJlY3Rpb24iOjEsImRpcmVjdGlvbk5hbWUiOiJOb3J0aCIsInNpZ25zIjpbXSwibWFuZXV2ZXJOb3RlcyI6W10sImZvcm1hdHRlZFRpbWUiOiIwMDowMDoyNyIsInRyYW5zcG9ydE1vZGUiOiJjYXIiLCJzdGFydFBvaW50Ijp7ImxhdCI6MzkuMTA0OTEwMDAwMDAwMDI1LCJsbmciOi04NC41MTA1OTAwMDAwMDAwMX0sInR1cm5UeXBlIjoyLCJhdHRyaWJ1dGVzIjowLCJpY29uVXJsIjoiIiwic3RyZWV0cyI6WyJVUy0yMiIsIk9ILTMiLCJNYWluIFN0Il0sIm1hcFVybCI6Imh0dHBzOi8vd3d3Lm1hcHF1ZXN0YXBpLmNvbS9zdGF0aWNtYXAvdjUvbWFwP2tleT1hcGlfa2V5JnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9MzkuMTA0OTEwMDAwMDAwMDI1LC04NC41MTA1OTAwMDAwMDAwMXxtYXJrZXItM3x8MzkuMTA1ODcwMDAwMDAwMDI0LC04NC41MTA4MnxtYXJrZXItNHx8JmNlbnRlcj0zOS4xMDUzOTAwMDAwMDAwMywtODQuNTEwNzA1JmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTE2JnNlc3Npb249QUpvQTV3Y0FBRzRBQUFBSUFBQUFGUUFBQUxvQUFBQjQybVBZeGNEQXlNVEF3TUNla1ZxVWFwV2NHMkhfVGh6SVpkQmJ1TGVGUzdydWhYT1V6Zm5vajdVdm5QT0JOQU1XQU5PWUxMVkxHc1RmMnA2NWpPSHlfM1dPYmFkUHhNNEEwcTFBbWdFSC1PXzE0c2dHUmlERGtaSEpaWVZBcTBlQVFoTUxrTXVvQUNRY0dEZ1lnSElDVUxXTVVGcUpBU1RHTExIR0FRQ1FIU2Y4UWJyLTB3OmNhciJ9LHsiaW5kZXgiOjMsImRpc3RhbmNlIjowLjY4ODUsIm5hcnJhdGl2ZSI6IlR1cm4gbGVmdCBvbnRvIDl0aCBTdCBFIChVUy0yMikuIEdvIGZvciAwLjcgbWkuIiwidGltZSI6OTcsImRpcmVjdGlvbiI6NywiZGlyZWN0aW9uTmFtZSI6Ildlc3QiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDE6MzciLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM5LjEwNTg3MDAwMDAwMDAyNCwibG5nIjotODQuNTEwODJ9LCJ0dXJuVHlwZSI6NiwiYXR0cmlidXRlcyI6MCwiaWNvblVybCI6IiIsInN0cmVldHMiOlsiVVMtMjIiLCJPSC0zIiwiOXRoIFN0IEUiLCJFIDl0aCBTdCIsIjl0aCBTdCBXIiwiVyA5dGggU3QiLCJPSC0yNjQiXSwibWFwVXJsIjoiaHR0cHM6Ly93d3cubWFwcXVlc3RhcGkuY29tL3N0YXRpY21hcC92NS9tYXA/a2V5PWFwaV9rZXkmc2l6ZT0yMjUsMTYwJmxvY2F0aW9ucz0zOS4xMDU4NzAwMDAwMDAwMjQsLTg0LjUxMDgyfG1hcmtlci00fHwzOS4xMDM3OTAwMDAwMDAwNDYsLTg0LjUyMzMyfG1hcmtlci01fHwmY2VudGVyPTM5LjEwNDgzMDAwMDAwMDAzNSwtODQuNTE3MDY5OTk5OTk5OTkmZGVmYXVsdE1hcmtlcj1ub25lJnpvb209MTMmc2Vzc2lvbj1BSm9BNXdjQUFHNEFBQUFJQUFBQUZRQUFBTG9BQUFCNDJtUFl4Y0RBeU1UQXdNQ2VrVnFVYXBXY0cySF9UaHpJWmRCYnVMZUZTN3J1aFhPVXpmbm9qN1V2blBPQk5BTVdBTk9ZTExWTEdzVGYycDY1ak9IeV8zV09iYWRQeE00QTBxMUFtZ0VILU9fMTRzZ0dSaUREa1pISlpZVkFxMGVBUWhNTGtNdW9BQ1FjR0RnWWdISUNVTFdNVUZxSkFTVEdMTEhHQVFDUUhTZjhRYnItMHc6Y2FyIn0seyJpbmRleCI6NCwiZGlzdGFuY2UiOjAuMDI1NSwibmFycmF0aXZlIjoiQ29udGludWUgb24gOHRoIFN0IFZpYWQuIEdvIGZvciAxMzUgZnQuIiwidGltZSI6NCwiZGlyZWN0aW9uIjo3LCJkaXJlY3Rpb25OYW1lIjoiV2VzdCIsInNpZ25zIjpbXSwibWFuZXV2ZXJOb3RlcyI6W10sImZvcm1hdHRlZFRpbWUiOiIwMDowMDowNCIsInRyYW5zcG9ydE1vZGUiOiJjYXIiLCJzdGFydFBvaW50Ijp7ImxhdCI6MzkuMTAzNzkwMDAwMDAwMDQ2LCJsbmciOi04NC41MjMzMn0sInR1cm5UeXBlIjowLCJhdHRyaWJ1dGVzIjowLCJpY29uVXJsIjoiIiwic3RyZWV0cyI6WyI4dGggU3QgVmlhZCJdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9YXBpX2tleSZzaXplPTIyNSwxNjAmbG9jYXRpb25zPTM5LjEwMzc5MDAwMDAwMDA0NiwtODQuNTIzMzJ8bWFya2VyLTV8fDM5LjEwMzcxMDAwMDAwMDA1LC04NC41MjM3OHxtYXJrZXItNnx8JmNlbnRlcj0zOS4xMDM3NTAwMDAwMDAwNSwtODQuNTIzNTUmZGVmYXVsdE1hcmtlcj1ub25lJnpvb209MTYmc2Vzc2lvbj1BSm9BNXdjQUFHNEFBQUFJQUFBQUZRQUFBTG9BQUFCNDJtUFl4Y0RBeU1UQXdNQ2VrVnFVYXBXY0cySF9UaHpJWmRCYnVMZUZTN3J1aFhPVXpmbm9qN1V2blBPQk5BTVdBTk9ZTExWTEdzVGYycDY1ak9IeV8zV09iYWRQeE00QTBxMUFtZ0VILU9fMTRzZ0dSaUREa1pISlpZVkFxMGVBUWhNTGtNdW9BQ1FjR0RnWWdISUNVTFdNVUZxSkFTVEdMTEhHQVFDUUhTZjhRYnItMHc6Y2FyIn0seyJpbmRleCI6NSwiZGlzdGFuY2UiOjIuOTcyNiwibmFycmF0aXZlIjoiVHVybiBzbGlnaHRseSByaWdodCBhbmQgdGFrZSByYW1wIG9udG8gSS03NSBOIHRvd2FyZCBEYXl0b24uIEdvIGZvciAzLjAgbWkuIiwidGltZSI6MjAxLCJkaXJlY3Rpb24iOjEsImRpcmVjdGlvbk5hbWUiOiJOb3J0aCIsInNpZ25zIjpbXSwibWFuZXV2ZXJOb3RlcyI6W10sImZvcm1hdHRlZFRpbWUiOiIwMDowMzoyMSIsInRyYW5zcG9ydE1vZGUiOiJjYXIiLCJzdGFydFBvaW50Ijp7ImxhdCI6MzkuMTAzNzEwMDAwMDAwMDUsImxuZyI6LTg0LjUyMzc4fSwidHVyblR5cGUiOjEyLCJhdHRyaWJ1dGVzIjowLCJpY29uVXJsIjoiIiwic3RyZWV0cyI6WyJJLTc1IiwiVVMtNTIiXSwibWFwVXJsIjoiaHR0cHM6Ly93d3cubWFwcXVlc3RhcGkuY29tL3N0YXRpY21hcC92NS9tYXA/a2V5PWFwaV9rZXkmc2l6ZT0yMjUsMTYwJmxvY2F0aW9ucz0zOS4xMDM3MTAwMDAwMDAwNSwtODQuNTIzNzh8bWFya2VyLTZ8fDM5LjE0MTg4MDAwMDAwMDA2LC04NC41MzUwMTAwMDAwMDAwMXxtYXJrZXItN3x8JmNlbnRlcj0zOS4xMjI3OTUwMDAwMDAwNSwtODQuNTI5Mzk1MDAwMDAwMDEmZGVmYXVsdE1hcmtlcj1ub25lJnpvb209MTEmc2Vzc2lvbj1BSm9BNXdjQUFHNEFBQUFJQUFBQUZRQUFBTG9BQUFCNDJtUFl4Y0RBeU1UQXdNQ2VrVnFVYXBXY0cySF9UaHpJWmRCYnVMZUZTN3J1aFhPVXpmbm9qN1V2blBPQk5BTVdBTk9ZTExWTEdzVGYycDY1ak9IeV8zV09iYWRQeE00QTBxMUFtZ0VILU9fMTRzZ0dSaUREa1pISlpZVkFxMGVBUWhNTGtNdW9BQ1FjR0RnWWdISUNVTFdNVUZxSkFTVEdMTEhHQVFDUUhTZjhRYnItMHc6Y2FyIn0seyJpbmRleCI6NiwiZGlzdGFuY2UiOjEzLjU3ODIsIm5hcnJhdGl2ZSI6IlRha2UgZXhpdCA0IHRvd2FyZCBVUy01MiBXL1VTLTI3IE4vSW5kaWFuYXBvbGlzIG9udG8gSS03NCBXLiBHbyBmb3IgMTMuNiBtaS4iLCJ0aW1lIjo3OTIsImRpcmVjdGlvbiI6NywiZGlyZWN0aW9uTmFtZSI6Ildlc3QiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MTM6MTIiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM5LjE0MTg4MDAwMDAwMDA2LCJsbmciOi04NC41MzUwMTAwMDAwMDAwMX0sInR1cm5UeXBlIjoxNCwiYXR0cmlidXRlcyI6MCwiaWNvblVybCI6IiIsInN0cmVldHMiOlsiSS03NCIsIlVTLTI3IiwiVVMtNTIiLCJJLTI3NSJdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9YXBpX2tleSZzaXplPTIyNSwxNjAmbG9jYXRpb25zPTM5LjE0MTg4MDAwMDAwMDA2LC04NC41MzUwMTAwMDAwMDAwMXxtYXJrZXItN3x8MzkuMjE1MTgwMDAwMDAwMTQsLTg0LjcyODI4MDAwMDAwMDA3fG1hcmtlci04fHwmY2VudGVyPTM5LjE3ODUzMDAwMDAwMDA5NCwtODQuNjMxNjQ1MDAwMDAwMDUmZGVmYXVsdE1hcmtlcj1ub25lJnpvb209OSZzZXNzaW9uPUFKb0E1d2NBQUc0QUFBQUlBQUFBRlFBQUFMb0FBQUI0Mm1QWXhjREF5TVRBd01DZWtWcVVhcFdjRzJIX1RoeklaZEJidUxlRlM3cnVoWE9VemZub2o3VXZuUE9CTkFNV0FOT1lMTFZMR3NUZjJwNjVqT0h5XzNXT2JhZFB4TTRBMHExQW1nRUgtT18xNHNnR1JpRERrWkhKWllWQXEwZUFRaE1Ma011b0FDUWNHRGdZZ0hJQ1VMV01VRnFKQVNUR0xMSEdBUUNRSFNmOFFici0wdzpjYXIifSx7ImluZGV4Ijo3LCJkaXN0YW5jZSI6Ni41NjU0LCJuYXJyYXRpdmUiOiJDb250aW51ZSBvbiBJLTc0IFcgdG93YXJkIFVTLTUyIFcvSW5kaWFuYXBvbGlzLiBHbyBmb3IgNi42IG1pLiIsInRpbWUiOjM2MywiZGlyZWN0aW9uIjoyLCJkaXJlY3Rpb25OYW1lIjoiTm9ydGh3ZXN0Iiwic2lnbnMiOltdLCJtYW5ldXZlck5vdGVzIjpbXSwiZm9ybWF0dGVkVGltZSI6IjAwOjA2OjAzIiwidHJhbnNwb3J0TW9kZSI6ImNhciIsInN0YXJ0UG9pbnQiOnsibGF0IjozOS4yMTUxODAwMDAwMDAxNCwibG5nIjotODQuNzI4MjgwMDAwMDAwMDd9LCJ0dXJuVHlwZSI6NywiYXR0cmlidXRlcyI6MCwiaWNvblVybCI6IiIsInN0cmVldHMiOlsiSS03NCIsIlVTLTUyIl0sIm1hcFVybCI6Imh0dHBzOi8vd3d3Lm1hcHF1ZXN0YXBpLmNvbS9zdGF0aWNtYXAvdjUvbWFwP2tleT1hcGlfa2V5JnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9MzkuMjE1MTgwMDAwMDAwMTQsLTg0LjcyODI4MDAwMDAwMDA3fG1hcmtlci04fHwzOS4yNzY2MzAwMDAwMDAxMywtODQuODE5NzgwMDAwMDAwMDV8bWFya2VyLTl8fCZjZW50ZXI9MzkuMjQ1OTA1MDAwMDAwMTM1LC04NC43NzQwMzAwMDAwMDAwNyZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT0xMCZzZXNzaW9uPUFKb0E1d2NBQUc0QUFBQUlBQUFBRlFBQUFMb0FBQUI0Mm1QWXhjREF5TVRBd01DZWtWcVVhcFdjRzJIX1RoeklaZEJidUxlRlM3cnVoWE9VemZub2o3VXZuUE9CTkFNV0FOT1lMTFZMR3NUZjJwNjVqT0h5XzNXT2JhZFB4TTRBMHExQW1nRUgtT18xNHNnR1JpRERrWkhKWllWQXEwZUFRaE1Ma011b0FDUWNHRGdZZ0hJQ1VMV01VRnFKQVNUR0xMSEdBUUNRSFNmOFFici0wdzpjYXIifSx7ImluZGV4Ijo4LCJkaXN0YW5jZSI6NzcuNTAxMSwibmFycmF0aXZlIjoiQ29udGludWUgb24gSS03NC4gR28gZm9yIDc3LjUgbWkuIiwidGltZSI6NDEzNSwiZGlyZWN0aW9uIjo3LCJkaXJlY3Rpb25OYW1lIjoiV2VzdCIsInNpZ25zIjpbXSwibWFuZXV2ZXJOb3RlcyI6W10sImZvcm1hdHRlZFRpbWUiOiIwMTowODo1NSIsInRyYW5zcG9ydE1vZGUiOiJjYXIiLCJzdGFydFBvaW50Ijp7ImxhdCI6MzkuMjc2NjMwMDAwMDAwMTMsImxuZyI6LTg0LjgxOTc4MDAwMDAwMDA1fSwidHVyblR5cGUiOjAsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbIkktNzQiLCJVUy01MiIsIlVTLTQyMSJdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9YXBpX2tleSZzaXplPTIyNSwxNjAmbG9jYXRpb25zPTM5LjI3NjYzMDAwMDAwMDEzLC04NC44MTk3ODAwMDAwMDAwNXxtYXJrZXItOXx8MzkuNzMyNDAwMDAwMDAwMDgsLTg2LjAzNTUzMDAwMDAwMDM2fG1hcmtlci0xMHx8JmNlbnRlcj0zOS41MDQ1MTUwMDAwMDAxMDQsLTg1LjQyNzY1NTAwMDAwMDIxJmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTYmc2Vzc2lvbj1BSm9BNXdjQUFHNEFBQUFJQUFBQUZRQUFBTG9BQUFCNDJtUFl4Y0RBeU1UQXdNQ2VrVnFVYXBXY0cySF9UaHpJWmRCYnVMZUZTN3J1aFhPVXpmbm9qN1V2blBPQk5BTVdBTk9ZTExWTEdzVGYycDY1ak9IeV8zV09iYWRQeE00QTBxMUFtZ0VILU9fMTRzZ0dSaUREa1pISlpZVkFxMGVBUWhNTGtNdW9BQ1FjR0RnWWdISUNVTFdNVUZxSkFTVEdMTEhHQVFDUUhTZjhRYnItMHc6Y2FyIn0seyJpbmRleCI6OSwiZGlzdGFuY2UiOjIzLjY5MjksIm5hcnJhdGl2ZSI6IlRha2UgdGhlIGV4aXQgb250byBJLTQ2NSBOLiBHbyBmb3IgMjMuNyBtaS4iLCJ0aW1lIjoxNTQ2LCJkaXJlY3Rpb24iOjIsImRpcmVjdGlvbk5hbWUiOiJOb3J0aHdlc3QiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MjU6NDYiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM5LjczMjQwMDAwMDAwMDA4LCJsbmciOi04Ni4wMzU1MzAwMDAwMDAzNn0sInR1cm5UeXBlIjoxNCwiYXR0cmlidXRlcyI6MCwiaWNvblVybCI6IiIsInN0cmVldHMiOlsiSS00NjUiLCJVUy0zMSIsIlVTLTQwIiwiVVMtNTIiLCJVUy00MjEiLCJJTi0zNyJdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9YXBpX2tleSZzaXplPTIyNSwxNjAmbG9jYXRpb25zPTM5LjczMjQwMDAwMDAwMDA4LC04Ni4wMzU1MzAwMDAwMDAzNnxtYXJrZXItMTB8fDM5LjkyNzE5MDAwMDAwMDAzLC04Ni4yNTY3NjAwMDAwMDA0M3xtYXJrZXItMTF8fCZjZW50ZXI9MzkuODI5Nzk1MDAwMDAwMDU0LC04Ni4xNDYxNDUwMDAwMDAzOSZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT04JnNlc3Npb249QUpvQTV3Y0FBRzRBQUFBSUFBQUFGUUFBQUxvQUFBQjQybVBZeGNEQXlNVEF3TUNla1ZxVWFwV2NHMkhfVGh6SVpkQmJ1TGVGUzdydWhYT1V6Zm5vajdVdm5QT0JOQU1XQU5PWUxMVkxHc1RmMnA2NWpPSHlfM1dPYmFkUHhNNEEwcTFBbWdFSC1PXzE0c2dHUmlERGtaSEpaWVZBcTBlQVFoTUxrTXVvQUNRY0dEZ1lnSElDVUxXTVVGcUpBU1RHTExIR0FRQ1FIU2Y4UWJyLTB3OmNhciJ9LHsiaW5kZXgiOjEwLCJkaXN0YW5jZSI6NC44MDEzLCJuYXJyYXRpdmUiOiJDb250aW51ZSBvbiBJLTg2NSBXIHRvd2FyZCBDaGljYWdvL0ktNjUgTi4gR28gZm9yIDQuOCBtaS4iLCJ0aW1lIjoyNzUsImRpcmVjdGlvbiI6NywiZGlyZWN0aW9uTmFtZSI6Ildlc3QiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDQ6MzUiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM5LjkyNzE5MDAwMDAwMDAzLCJsbmciOi04Ni4yNTY3NjAwMDAwMDA0M30sInR1cm5UeXBlIjo3LCJhdHRyaWJ1dGVzIjowLCJpY29uVXJsIjoiIiwic3RyZWV0cyI6WyJJLTg2NSIsIlVTLTUyIl0sIm1hcFVybCI6Imh0dHBzOi8vd3d3Lm1hcHF1ZXN0YXBpLmNvbS9zdGF0aWNtYXAvdjUvbWFwP2tleT1hcGlfa2V5JnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9MzkuOTI3MTkwMDAwMDAwMDMsLTg2LjI1Njc2MDAwMDAwMDQzfG1hcmtlci0xMXx8MzkuOTM2NjEwMDAwMDAwMDUsLTg2LjM0MzY5MDAwMDAwMDQ5fG1hcmtlci0xMnx8JmNlbnRlcj0zOS45MzE5MDAwMDAwMDAwNCwtODYuMzAwMjI1MDAwMDAwNDcmZGVmYXVsdE1hcmtlcj1ub25lJnpvb209MTAmc2Vzc2lvbj1BSm9BNXdjQUFHNEFBQUFJQUFBQUZRQUFBTG9BQUFCNDJtUFl4Y0RBeU1UQXdNQ2VrVnFVYXBXY0cySF9UaHpJWmRCYnVMZUZTN3J1aFhPVXpmbm9qN1V2blBPQk5BTVdBTk9ZTExWTEdzVGYycDY1ak9IeV8zV09iYWRQeE00QTBxMUFtZ0VILU9fMTRzZ0dSaUREa1pISlpZVkFxMGVBUWhNTGtNdW9BQ1FjR0RnWWdISUNVTFdNVUZxSkFTVEdMTEhHQVFDUUhTZjhRYnItMHc6Y2FyIn0seyJpbmRleCI6MTEsImRpc3RhbmNlIjoxMzIuNDg0NCwibmFycmF0aXZlIjoiQ29udGludWUgb24gSS02NS4gR28gZm9yIDEzMiBtaS4iLCJ0aW1lIjo2OTY5LCJkaXJlY3Rpb24iOjIsImRpcmVjdGlvbk5hbWUiOiJOb3J0aHdlc3QiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDE6NTY6MDkiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjM5LjkzNjYxMDAwMDAwMDA1LCJsbmciOi04Ni4zNDM2OTAwMDAwMDA0OX0sInR1cm5UeXBlIjowLCJhdHRyaWJ1dGVzIjowLCJpY29uVXJsIjoiIiwic3RyZWV0cyI6WyJJLTY1IiwiVVMtNTIiLCJJTi0yNSIsIkNhc2ltaXIgUHVsYXNraSBNZW1vcmlhbCBId3kiXSwibWFwVXJsIjoiaHR0cHM6Ly93d3cubWFwcXVlc3RhcGkuY29tL3N0YXRpY21hcC92NS9tYXA/a2V5PWFwaV9rZXkmc2l6ZT0yMjUsMTYwJmxvY2F0aW9ucz0zOS45MzY2MTAwMDAwMDAwNSwtODYuMzQzNjkwMDAwMDAwNDl8bWFya2VyLTEyfHw0MS41OTA3OTAwMDAwMDAwMzQsLTg3LjMwNjcxMDAwMDAwMDc4fG1hcmtlci0xM3x8JmNlbnRlcj00MC43NjM3MDAwMDAwMDAwNCwtODYuODI1MjAwMDAwMDAwNjMmZGVmYXVsdE1hcmtlcj1ub25lJnpvb209NiZzZXNzaW9uPUFKb0E1d2NBQUc0QUFBQUlBQUFBRlFBQUFMb0FBQUI0Mm1QWXhjREF5TVRBd01DZWtWcVVhcFdjRzJIX1RoeklaZEJidUxlRlM3cnVoWE9VemZub2o3VXZuUE9CTkFNV0FOT1lMTFZMR3NUZjJwNjVqT0h5XzNXT2JhZFB4TTRBMHExQW1nRUgtT18xNHNnR1JpRERrWkhKWllWQXEwZUFRaE1Ma011b0FDUWNHRGdZZ0hJQ1VMV01VRnFKQVNUR0xMSEdBUUNRSFNmOFFici0wdzpjYXIifSx7ImluZGV4IjoxMiwiZGlzdGFuY2UiOjE3LjQ0MTMsIm5hcnJhdGl2ZSI6IlRha2UgZXhpdCAyNjIgdG93YXJkIEktOTAtVE9MTC9JbGxpbm9pcy9PaGlvL0NoaWNhZ28gb250byBJLTkwIFcgKEluZGlhbmEgRWFzdC1XZXN0IFRvbGwgUmQpLiBHbyBmb3IgMTcuNCBtaS4iLCJ0aW1lIjoxMDY2LCJkaXJlY3Rpb24iOjIsImRpcmVjdGlvbk5hbWUiOiJOb3J0aHdlc3QiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MTc6NDYiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjQxLjU5MDc5MDAwMDAwMDAzNCwibG5nIjotODcuMzA2NzEwMDAwMDAwNzh9LCJ0dXJuVHlwZSI6MTQsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbIkktOTAiLCJJbmRpYW5hIEVhc3QtV2VzdCBUb2xsIFJkIiwiSW5kaWFuYSBUb2xsIFJkIl0sIm1hcFVybCI6Imh0dHBzOi8vd3d3Lm1hcHF1ZXN0YXBpLmNvbS9zdGF0aWNtYXAvdjUvbWFwP2tleT1hcGlfa2V5JnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9NDEuNTkwNzkwMDAwMDAwMDM0LC04Ny4zMDY3MTAwMDAwMDA3OHxtYXJrZXItMTN8fDQxLjcwMzE4MDAwMDAwMDA4LC04Ny41MjQ1MDAwMDAwMDA3NHxtYXJrZXItMTR8fCZjZW50ZXI9NDEuNjQ2OTg1MDAwMDAwMDYsLTg3LjQxNTYwNTAwMDAwMDc3JmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTkmc2Vzc2lvbj1BSm9BNXdjQUFHNEFBQUFJQUFBQUZRQUFBTG9BQUFCNDJtUFl4Y0RBeU1UQXdNQ2VrVnFVYXBXY0cySF9UaHpJWmRCYnVMZUZTN3J1aFhPVXpmbm9qN1V2blBPQk5BTVdBTk9ZTExWTEdzVGYycDY1ak9IeV8zV09iYWRQeE00QTBxMUFtZ0VILU9fMTRzZ0dSaUREa1pISlpZVkFxMGVBUWhNTGtNdW9BQ1FjR0RnWWdISUNVTFdNVUZxSkFTVEdMTEhHQVFDUUhTZjhRYnItMHc6Y2FyIn0seyJpbmRleCI6MTMsImRpc3RhbmNlIjoxNC42NTYzLCJuYXJyYXRpdmUiOiJDb250aW51ZSBvbiBJLTkwIChDaGljYWdvIFNrd3kgVykuIEdvIGZvciAxNC43IG1pLiIsInRpbWUiOjExMjUsImRpcmVjdGlvbiI6MiwiZGlyZWN0aW9uTmFtZSI6Ik5vcnRod2VzdCIsInNpZ25zIjpbXSwibWFuZXV2ZXJOb3RlcyI6W10sImZvcm1hdHRlZFRpbWUiOiIwMDoxODo0NSIsInRyYW5zcG9ydE1vZGUiOiJjYXIiLCJzdGFydFBvaW50Ijp7ImxhdCI6NDEuNzAzMTgwMDAwMDAwMDgsImxuZyI6LTg3LjUyNDUwMDAwMDAwMDc0fSwidHVyblR5cGUiOjAsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbIkktOTAiLCJDaGljYWdvIFNrd3kgVyIsIkktOTQiLCJEYW4gUnlhbiBFeHByZXNzIExhbmUiLCJJLTkwIEV4cHJlc3MgTGFuZSIsIkktOTQgRXhwcmVzcyBMYW5lIiwiRGFuIFJ5YW4gRXhweSBXIl0sIm1hcFVybCI6Imh0dHBzOi8vd3d3Lm1hcHF1ZXN0YXBpLmNvbS9zdGF0aWNtYXAvdjUvbWFwP2tleT1hcGlfa2V5JnNpemU9MjI1LDE2MCZsb2NhdGlvbnM9NDEuNzAzMTgwMDAwMDAwMDgsLTg3LjUyNDUwMDAwMDAwMDc0fG1hcmtlci0xNHx8NDEuODczNzIwMDAwMDAwMTUsLTg3LjY0NDkyMDAwMDAwMDg1fG1hcmtlci0xNXx8JmNlbnRlcj00MS43ODg0NTAwMDAwMDAxMSwtODcuNTg0NzEwMDAwMDAwOCZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT05JnNlc3Npb249QUpvQTV3Y0FBRzRBQUFBSUFBQUFGUUFBQUxvQUFBQjQybVBZeGNEQXlNVEF3TUNla1ZxVWFwV2NHMkhfVGh6SVpkQmJ1TGVGUzdydWhYT1V6Zm5vajdVdm5QT0JOQU1XQU5PWUxMVkxHc1RmMnA2NWpPSHlfM1dPYmFkUHhNNEEwcTFBbWdFSC1PXzE0c2dHUmlERGtaSEpaWVZBcTBlQVFoTUxrTXVvQUNRY0dEZ1lnSElDVUxXTVVGcUpBU1RHTExIR0FRQ1FIU2Y4UWJyLTB3OmNhciJ9LHsiaW5kZXgiOjE0LCJkaXN0YW5jZSI6MC42NzA1LCJuYXJyYXRpdmUiOiJUYWtlIHRoZSBleGl0IHRvd2FyZCBJLTkwIFcvSS05NCBXL1dhc2hpbmd0b24gQmx2ZCBFYXN0LiBHbyBmb3IgMC43IG1pLiIsInRpbWUiOjExMSwiZGlyZWN0aW9uIjoxLCJkaXJlY3Rpb25OYW1lIjoiTm9ydGgiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDE6NTEiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjQxLjg3MzcyMDAwMDAwMDE1LCJsbmciOi04Ny42NDQ5MjAwMDAwMDA4NX0sInR1cm5UeXBlIjoxNCwiYXR0cmlidXRlcyI6MCwiaWNvblVybCI6IiIsInN0cmVldHMiOltdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9YXBpX2tleSZzaXplPTIyNSwxNjAmbG9jYXRpb25zPTQxLjg3MzcyMDAwMDAwMDE1LC04Ny42NDQ5MjAwMDAwMDA4NXxtYXJrZXItMTV8fDQxLjg4MzE0MDAwMDAwMDE3LC04Ny42NDUyNDAwMDAwMDA4N3xtYXJrZXItMTZ8fCZjZW50ZXI9NDEuODc4NDMwMDAwMDAwMTYsLTg3LjY0NTA4MDAwMDAwMDg2JmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTEzJnNlc3Npb249QUpvQTV3Y0FBRzRBQUFBSUFBQUFGUUFBQUxvQUFBQjQybVBZeGNEQXlNVEF3TUNla1ZxVWFwV2NHMkhfVGh6SVpkQmJ1TGVGUzdydWhYT1V6Zm5vajdVdm5QT0JOQU1XQU5PWUxMVkxHc1RmMnA2NWpPSHlfM1dPYmFkUHhNNEEwcTFBbWdFSC1PXzE0c2dHUmlERGtaSEpaWVZBcTBlQVFoTUxrTXVvQUNRY0dEZ1lnSElDVUxXTVVGcUpBU1RHTExIR0FRQ1FIU2Y4UWJyLTB3OmNhciJ9LHsiaW5kZXgiOjE1LCJkaXN0YW5jZSI6MC4yODI3LCJuYXJyYXRpdmUiOiJUdXJuIHJpZ2h0IG9udG8gVyBXYXNoaW5ndG9uIEJsdmQuIEdvIGZvciAwLjMgbWkuIiwidGltZSI6NjUsImRpcmVjdGlvbiI6OCwiZGlyZWN0aW9uTmFtZSI6IkVhc3QiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDE6MDUiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjQxLjg4MzE0MDAwMDAwMDE3LCJsbmciOi04Ny42NDUyNDAwMDAwMDA4N30sInR1cm5UeXBlIjoyLCJhdHRyaWJ1dGVzIjowLCJpY29uVXJsIjoiIiwic3RyZWV0cyI6WyJXIFdhc2hpbmd0b24gQmx2ZCJdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9YXBpX2tleSZzaXplPTIyNSwxNjAmbG9jYXRpb25zPTQxLjg4MzE0MDAwMDAwMDE3LC04Ny42NDUyNDAwMDAwMDA4N3xtYXJrZXItMTZ8fDQxLjg4MzIwMDAwMDAwMDE3LC04Ny42Mzk3NjAwMDAwMDA4OHxtYXJrZXItMTd8fCZjZW50ZXI9NDEuODgzMTcwMDAwMDAwMTcsLTg3LjY0MjUwMDAwMDAwMDg3JmRlZmF1bHRNYXJrZXI9bm9uZSZ6b29tPTE0JnNlc3Npb249QUpvQTV3Y0FBRzRBQUFBSUFBQUFGUUFBQUxvQUFBQjQybVBZeGNEQXlNVEF3TUNla1ZxVWFwV2NHMkhfVGh6SVpkQmJ1TGVGUzdydWhYT1V6Zm5vajdVdm5QT0JOQU1XQU5PWUxMVkxHc1RmMnA2NWpPSHlfM1dPYmFkUHhNNEEwcTFBbWdFSC1PXzE0c2dHUmlERGtaSEpaWVZBcTBlQVFoTUxrTXVvQUNRY0dEZ1lnSElDVUxXTVVGcUpBU1RHTExIR0FRQ1FIU2Y4UWJyLTB3OmNhciJ9LHsiaW5kZXgiOjE2LCJkaXN0YW5jZSI6MC4zNzY2LCJuYXJyYXRpdmUiOiJDb250aW51ZSBvbiBXIFdhc2hpbmd0b24gU3QuIEdvIGZvciAwLjQgbWkuIiwidGltZSI6ODQsImRpcmVjdGlvbiI6OCwiZGlyZWN0aW9uTmFtZSI6IkVhc3QiLCJzaWducyI6W10sIm1hbmV1dmVyTm90ZXMiOltdLCJmb3JtYXR0ZWRUaW1lIjoiMDA6MDE6MjQiLCJ0cmFuc3BvcnRNb2RlIjoiY2FyIiwic3RhcnRQb2ludCI6eyJsYXQiOjQxLjg4MzIwMDAwMDAwMDE3LCJsbmciOi04Ny42Mzk3NjAwMDAwMDA4OH0sInR1cm5UeXBlIjowLCJhdHRyaWJ1dGVzIjowLCJpY29uVXJsIjoiIiwic3RyZWV0cyI6WyJXIFdhc2hpbmd0b24gU3QiXSwibWFwVXJsIjoiaHR0cHM6Ly93d3cubWFwcXVlc3RhcGkuY29tL3N0YXRpY21hcC92NS9tYXA/a2V5PWFwaV9rZXkmc2l6ZT0yMjUsMTYwJmxvY2F0aW9ucz00MS44ODMyMDAwMDAwMDAxNywtODcuNjM5NzYwMDAwMDAwODh8bWFya2VyLTE3fHw0MS44ODMyNTAwMDAwMDAxOCwtODcuNjMyNDYwMDAwMDAwODl8bWFya2VyLTE4fHwmY2VudGVyPTQxLjg4MzIyNTAwMDAwMDE4LC04Ny42MzYxMTAwMDAwMDA4OCZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT0xNCZzZXNzaW9uPUFKb0E1d2NBQUc0QUFBQUlBQUFBRlFBQUFMb0FBQUI0Mm1QWXhjREF5TVRBd01DZWtWcVVhcFdjRzJIX1RoeklaZEJidUxlRlM3cnVoWE9VemZub2o3VXZuUE9CTkFNV0FOT1lMTFZMR3NUZjJwNjVqT0h5XzNXT2JhZFB4TTRBMHExQW1nRUgtT18xNHNnR1JpRERrWkhKWllWQXEwZUFRaE1Ma011b0FDUWNHRGdZZ0hJQ1VMV01VRnFKQVNUR0xMSEdBUUNRSFNmOFFici0wdzpjYXIifSx7ImluZGV4IjoxNywiZGlzdGFuY2UiOjAuMDY4NCwibmFycmF0aXZlIjoiVHVybiBsZWZ0IG9udG8gTiBMYVNhbGxlIFN0LiBHbyBmb3IgMzYxIGZ0LiIsInRpbWUiOjE0LCJkaXJlY3Rpb24iOjEsImRpcmVjdGlvbk5hbWUiOiJOb3J0aCIsInNpZ25zIjpbXSwibWFuZXV2ZXJOb3RlcyI6W10sImZvcm1hdHRlZFRpbWUiOiIwMDowMDoxNCIsInRyYW5zcG9ydE1vZGUiOiJjYXIiLCJzdGFydFBvaW50Ijp7ImxhdCI6NDEuODgzMjUwMDAwMDAwMTgsImxuZyI6LTg3LjYzMjQ2MDAwMDAwMDg5fSwidHVyblR5cGUiOjYsImF0dHJpYnV0ZXMiOjAsImljb25VcmwiOiIiLCJzdHJlZXRzIjpbIk4gTGFTYWxsZSBTdCJdLCJtYXBVcmwiOiJodHRwczovL3d3dy5tYXBxdWVzdGFwaS5jb20vc3RhdGljbWFwL3Y1L21hcD9rZXk9YXBpX2tleSZzaXplPTIyNSwxNjAmbG9jYXRpb25zPTQxLjg4MzI1MDAwMDAwMDE4LC04Ny42MzI0NjAwMDAwMDA4OXxtYXJrZXItMTh8fDQxLjg4NDI1MDAwMDAwMDE4NiwtODcuNjMyNDU1MDAwMDAwODl8bWFya2VyLTE5fHwmY2VudGVyPTQxLjg4Mzc1MDAwMDAwMDE4NCwtODcuNjMyNDU3NTAwMDAwOSZkZWZhdWx0TWFya2VyPW5vbmUmem9vbT0xNiZzZXNzaW9uPUFKb0E1d2NBQUc0QUFBQUlBQUFBRlFBQUFMb0FBQUI0Mm1QWXhjREF5TVRBd01DZWtWcVVhcFdjRzJIX1RoeklaZEJidUxlRlM3cnVoWE9VemZub2o3VXZuUE9CTkFNV0FOT1lMTFZMR3NUZjJwNjVqT0h5XzNXT2JhZFB4TTRBMHExQW1nRUgtT18xNHNnR1JpRERrWkhKWllWQXEwZUFRaE1Ma011b0FDUWNHRGdZZ0hJQ1VMV01VRnFKQVNUR0xMSEdBUUNRSFNmOFFici0wdzpjYXIifSx7ImluZGV4IjoxOCwiZGlzdGFuY2UiOjAsIm5hcnJhdGl2ZSI6IkFycml2ZSBhdCBOIExhU2FsbGUgU3QuIiwidGltZSI6MCwiZGlyZWN0aW9uIjowLCJkaXJlY3Rpb25OYW1lIjoiTm9uZSIsInNpZ25zIjpbXSwibWFuZXV2ZXJOb3RlcyI6W10sImZvcm1hdHRlZFRpbWUiOiIwMDowMDowMCIsInRyYW5zcG9ydE1vZGUiOiJjYXIiLCJzdGFydFBvaW50Ijp7ImxhdCI6NDEuODg0MjUwMDAwMDAwMTg2LCJsbmciOi04Ny42MzI0NTUwMDAwMDA4OX0sInR1cm5UeXBlIjowLCJhdHRyaWJ1dGVzIjowLCJpY29uVXJsIjoiIiwic3RyZWV0cyI6W119XX1dLCJvcHRpb25zIjp7InJvdXRlVHlwZSI6IkZBU1RFU1QiLCJuYXJyYXRpdmVUeXBlIjoidGV4dCIsImVuaGFuY2VkTmFycmF0aXZlIjpmYWxzZSwid2Fsa2luZ1NwZWVkIjotMSwiaGlnaHdheUVmZmljaWVuY3kiOjIyLCJhdm9pZHMiOmZhbHNlLCJnZW5lcmFsaXplIjotMSwic2hhcGVGb3JtYXQiOiJyYXciLCJ1bml0IjoiTSIsImxvY2FsZSI6ImVuX1VTIiwidXNlVHJhZmZpYyI6ZmFsc2UsInRpbWVUeXBlIjowLCJkYXRlVHlwZSI6MCwiZG9SZXZlcnNlR2VvY29kZSI6dHJ1ZSwibWFuTWFwcyI6dHJ1ZSwic2lkZU9mU3RyZWV0RGlzcGxheSI6dHJ1ZX0sImJvdW5kaW5nQm94Ijp7InVsIjp7ImxhdCI6NDEuODg0MjUwMDAwMDAwMTg2LCJsbmciOi04Ny42NDU0MTAwMDAwMDA4N30sImxyIjp7ImxhdCI6MzkuMTAzNzEwMDAwMDAwMDUsImxuZyI6LTg0LjUwNDEzNH19LCJuYW1lIjoiSS02NSBhbmQgSS03NCIsIm1heFJvdXRlcyI6IiIsImxvY2F0aW9ucyI6W3sic3RyZWV0IjoiIiwiYWRtaW5BcmVhNiI6IiIsImFkbWluQXJlYTZUeXBlIjoiTmVpZ2hib3Job29kIiwiYWRtaW5BcmVhNSI6IkNpbmNpbm5hdGkiLCJhZG1pbkFyZWE1VHlwZSI6IkNpdHkiLCJhZG1pbkFyZWE0IjoiSGFtaWx0b24iLCJhZG1pbkFyZWE0VHlwZSI6IkNvdW50eSIsImFkbWluQXJlYTMiOiJPSCIsImFkbWluQXJlYTNUeXBlIjoiU3RhdGUiLCJhZG1pbkFyZWExIjoiVVMiLCJhZG1pbkFyZWExVHlwZSI6IkNvdW50cnkiLCJwb3N0YWxDb2RlIjoiIiwiZ2VvY29kZVF1YWxpdHlDb2RlIjoiQTVYQlgiLCJnZW9jb2RlUXVhbGl0eSI6IkNJVFkiLCJkcmFnUG9pbnQiOmZhbHNlLCJzaWRlT2ZTdHJlZXQiOiJOIiwibGlua0lkIjoiMCIsInVua25vd25JbnB1dCI6IiIsInR5cGUiOiJzIiwibGF0TG5nIjp7ImxhdCI6MzkuMTA3MTMsImxuZyI6LTg0LjUwNDEzfSwiZGlzcGxheUxhdExuZyI6eyJsYXQiOjM5LjEwNzEzLCJsbmciOi04NC41MDQxM30sIm1hcFVybCI6IiJ9LHsic3RyZWV0IjoiIiwiYWRtaW5BcmVhNiI6IiIsImFkbWluQXJlYTZUeXBlIjoiTmVpZ2hib3Job29kIiwiYWRtaW5BcmVhNSI6IkNoaWNhZ28iLCJhZG1pbkFyZWE1VHlwZSI6IkNpdHkiLCJhZG1pbkFyZWE0IjoiQ29vayIsImFkbWluQXJlYTRUeXBlIjoiQ291bnR5IiwiYWRtaW5BcmVhMyI6IklMIiwiYWRtaW5BcmVhM1R5cGUiOiJTdGF0ZSIsImFkbWluQXJlYTEiOiJVUyIsImFkbWluQXJlYTFUeXBlIjoiQ291bnRyeSIsInBvc3RhbENvZGUiOiIiLCJnZW9jb2RlUXVhbGl0eUNvZGUiOiJBNVhDWCIsImdlb2NvZGVRdWFsaXR5IjoiQ0lUWSIsImRyYWdQb2ludCI6ZmFsc2UsInNpZGVPZlN0cmVldCI6Ik4iLCJsaW5rSWQiOiIwIiwidW5rbm93bklucHV0IjoiIiwidHlwZSI6InMiLCJsYXRMbmciOnsibGF0Ijo0MS44ODQyNSwibG5nIjotODcuNjMyNDV9LCJkaXNwbGF5TGF0TG5nIjp7ImxhdCI6NDEuODg0MjUsImxuZyI6LTg3LjYzMjQ1fSwibWFwVXJsIjoiIn1dLCJsb2NhdGlvblNlcXVlbmNlIjpbMCwxXX0sImluZm8iOnsic3RhdHVzY29kZSI6MCwiY29weXJpZ2h0Ijp7InRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIiwiaW1hZ2VVcmwiOiJodHRwOi8vYXBpLm1xY2RuLmNvbS9yZXMvbXFsb2dvLmdpZiIsImltYWdlQWx0VGV4dCI6IsKpIDIwMjIgTWFwUXVlc3QsIEluYy4ifSwibWVzc2FnZXMiOltdfX0=
+  recorded_at: Wed, 26 Apr 2023 04:54:58 GMT
+- request:
+    method: get
+    uri: https://www.mapquestapi.com/geocoding/v1/address?key=api_key&location=Chicaco,%20IL
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 26 Apr 2023 04:54:59 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '796'
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit-2628000:
+      - '15000'
+      X-Ratelimit-Remaining-2628000:
+      - '14882'
+      Ratelimit-Limit:
+      - '15000'
+      Ratelimit-Remaining:
+      - '14882'
+      Ratelimit-Reset:
+      - '2063101'
+      X-Powered-By:
+      - MapQuest
+      X-Request-Id:
+      - 7ef85940-e3ee-11ed-a568-176dd6686e32
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Transaction-Count:
+      - all=1,geocoding=1
+      Etag:
+      - W/"31c-PhufNBLn1rhs7V2zHF5Tl/Gyr0w"
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpbmZvIjp7InN0YXR1c2NvZGUiOjAsImNvcHlyaWdodCI6eyJ0ZXh0IjoiwqkgMjAyMiBNYXBRdWVzdCwgSW5jLiIsImltYWdlVXJsIjoiaHR0cDovL2FwaS5tcWNkbi5jb20vcmVzL21xbG9nby5naWYiLCJpbWFnZUFsdFRleHQiOiLCqSAyMDIyIE1hcFF1ZXN0LCBJbmMuIn0sIm1lc3NhZ2VzIjpbXX0sIm9wdGlvbnMiOnsibWF4UmVzdWx0cyI6LTEsImlnbm9yZUxhdExuZ0lucHV0IjpmYWxzZX0sInJlc3VsdHMiOlt7InByb3ZpZGVkTG9jYXRpb24iOnsibG9jYXRpb24iOiJDaGljYWNvLCBJTCJ9LCJsb2NhdGlvbnMiOlt7InN0cmVldCI6IiIsImFkbWluQXJlYTYiOiIiLCJhZG1pbkFyZWE2VHlwZSI6Ik5laWdoYm9yaG9vZCIsImFkbWluQXJlYTUiOiJDaGljYWdvIiwiYWRtaW5BcmVhNVR5cGUiOiJDaXR5IiwiYWRtaW5BcmVhNCI6IkNvb2siLCJhZG1pbkFyZWE0VHlwZSI6IkNvdW50eSIsImFkbWluQXJlYTMiOiJJTCIsImFkbWluQXJlYTNUeXBlIjoiU3RhdGUiLCJhZG1pbkFyZWExIjoiVVMiLCJhZG1pbkFyZWExVHlwZSI6IkNvdW50cnkiLCJwb3N0YWxDb2RlIjoiIiwiZ2VvY29kZVF1YWxpdHlDb2RlIjoiQTVYQ1giLCJnZW9jb2RlUXVhbGl0eSI6IkNJVFkiLCJkcmFnUG9pbnQiOmZhbHNlLCJzaWRlT2ZTdHJlZXQiOiJOIiwibGlua0lkIjoiMCIsInVua25vd25JbnB1dCI6IiIsInR5cGUiOiJzIiwibGF0TG5nIjp7ImxhdCI6NDEuODg0MjUsImxuZyI6LTg3LjYzMjQ1fSwiZGlzcGxheUxhdExuZyI6eyJsYXQiOjQxLjg4NDI1LCJsbmciOi04Ny42MzI0NX0sIm1hcFVybCI6IiJ9XX1dfQ==
+  recorded_at: Wed, 26 Apr 2023 04:54:59 GMT
+- request:
+    method: get
+    uri: http://api.weatherapi.com/v1/forecast.json?days=5&key=api_key&q=41.88425,-87.63245
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 26 Apr 2023 04:54:59 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Server:
+      - BunnyCDN-IL1-845
+      Cdn-Pullzone:
+      - '93447'
+      Cdn-Uid:
+      - 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+      Cdn-Requestcountrycode:
+      - US
+      Cache-Control:
+      - public, max-age=180
+      Cdn-Proxyver:
+      - '1.03'
+      Cdn-Requestpullsuccess:
+      - 'True'
+      Cdn-Requestpullcode:
+      - '200'
+      Cdn-Cachedat:
+      - 04/26/2023 04:54:59
+      Cdn-Edgestorageid:
+      - '940'
+      Cdn-Status:
+      - '200'
+      Cdn-Requestid:
+      - 784062efccbd907d788ee528b28c922a
+      Cdn-Cache:
+      - EXPIRED
+    body:
+      encoding: ASCII-8BIT
+      string: '{"location":{"name":"Chicago","region":"Illinois","country":"United
+        States of America","lat":41.88,"lon":-87.63,"tz_id":"America/Chicago","localtime_epoch":1682484899,"localtime":"2023-04-25
+        23:54"},"current":{"last_updated":"2023-04-25 23:45","temp_f":39.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"},"humidity":67,"feelslike_f":34.0,"vis_miles":9.0,"uv":1.0},"forecast":{"forecastday":[{"date":"2023-04-25","day":{"maxtemp_f":45.5,"mintemp_f":38.3,"totalsnow_cm":0.0,"condition":{"text":"Moderate
+        rain","icon":"//cdn.weatherapi.com/weather/64x64/day/302.png"}},"astro":{"sunrise":"05:55
+        AM","sunset":"07:43 PM"},"hour":[{"time":"2023-04-25 00:00","temp_f":43.9,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-25
+        01:00","temp_f":43.9,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-25
+        02:00","temp_f":43.0,"condition":{"text":"Light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/night/266.png"}},{"time":"2023-04-25
+        03:00","temp_f":41.2,"condition":{"text":"Light rain","icon":"//cdn.weatherapi.com/weather/64x64/night/296.png"}},{"time":"2023-04-25
+        04:00","temp_f":42.3,"condition":{"text":"Light rain","icon":"//cdn.weatherapi.com/weather/64x64/night/296.png"}},{"time":"2023-04-25
+        05:00","temp_f":41.7,"condition":{"text":"Light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/night/266.png"}},{"time":"2023-04-25
+        06:00","temp_f":41.0,"condition":{"text":"Light rain","icon":"//cdn.weatherapi.com/weather/64x64/day/296.png"}},{"time":"2023-04-25
+        07:00","temp_f":39.9,"condition":{"text":"Moderate rain","icon":"//cdn.weatherapi.com/weather/64x64/day/302.png"}},{"time":"2023-04-25
+        08:00","temp_f":39.6,"condition":{"text":"Light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/day/266.png"}},{"time":"2023-04-25
+        09:00","temp_f":39.0,"condition":{"text":"Light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/day/266.png"}},{"time":"2023-04-25
+        10:00","temp_f":38.3,"condition":{"text":"Light rain","icon":"//cdn.weatherapi.com/weather/64x64/day/296.png"}},{"time":"2023-04-25
+        11:00","temp_f":39.0,"condition":{"text":"Light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/day/266.png"}},{"time":"2023-04-25
+        12:00","temp_f":39.4,"condition":{"text":"Light drizzle","icon":"//cdn.weatherapi.com/weather/64x64/day/266.png"}},{"time":"2023-04-25
+        13:00","temp_f":40.3,"condition":{"text":"Light sleet","icon":"//cdn.weatherapi.com/weather/64x64/day/317.png"}},{"time":"2023-04-25
+        14:00","temp_f":41.5,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-25
+        15:00","temp_f":42.6,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-25
+        16:00","temp_f":43.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-25
+        17:00","temp_f":43.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-25
+        18:00","temp_f":45.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-25
+        19:00","temp_f":45.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-25
+        20:00","temp_f":39.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-25
+        21:00","temp_f":39.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-25
+        22:00","temp_f":38.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-25
+        23:00","temp_f":38.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]},{"date":"2023-04-26","day":{"maxtemp_f":50.2,"mintemp_f":37.8,"totalsnow_cm":0.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},"astro":{"sunrise":"05:54
+        AM","sunset":"07:44 PM"},"hour":[{"time":"2023-04-26 00:00","temp_f":38.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        01:00","temp_f":37.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        02:00","temp_f":37.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        03:00","temp_f":37.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        04:00","temp_f":37.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        05:00","temp_f":37.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        06:00","temp_f":37.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        07:00","temp_f":38.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        08:00","temp_f":40.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        09:00","temp_f":41.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        10:00","temp_f":42.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        11:00","temp_f":46.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        12:00","temp_f":49.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        13:00","temp_f":49.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        14:00","temp_f":48.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        15:00","temp_f":50.2,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        16:00","temp_f":49.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        17:00","temp_f":48.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        18:00","temp_f":43.7,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        19:00","temp_f":47.7,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-26
+        20:00","temp_f":41.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        21:00","temp_f":41.2,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        22:00","temp_f":40.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-26
+        23:00","temp_f":40.8,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]},{"date":"2023-04-27","day":{"maxtemp_f":56.8,"mintemp_f":39.4,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"05:53
+        AM","sunset":"07:45 PM"},"hour":[{"time":"2023-04-27 00:00","temp_f":40.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        01:00","temp_f":40.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        02:00","temp_f":40.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        03:00","temp_f":39.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        04:00","temp_f":39.6,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        05:00","temp_f":39.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-27
+        06:00","temp_f":39.4,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        07:00","temp_f":40.5,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        08:00","temp_f":42.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        09:00","temp_f":45.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        10:00","temp_f":47.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        11:00","temp_f":51.4,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        12:00","temp_f":53.6,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        13:00","temp_f":54.9,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-27
+        14:00","temp_f":56.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-27
+        15:00","temp_f":56.3,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-27
+        16:00","temp_f":55.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-27
+        17:00","temp_f":54.1,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-27
+        18:00","temp_f":52.5,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png"}},{"time":"2023-04-27
+        19:00","temp_f":50.5,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-27
+        20:00","temp_f":49.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        21:00","temp_f":48.9,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png"}},{"time":"2023-04-27
+        22:00","temp_f":48.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/night/176.png"}},{"time":"2023-04-27
+        23:00","temp_f":48.2,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png"}}]},{"date":"2023-04-28","day":{"maxtemp_f":55.4,"mintemp_f":45.0,"totalsnow_cm":0.0,"condition":{"text":"Partly
+        cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},"astro":{"sunrise":"05:51
+        AM","sunset":"07:46 PM"},"hour":[{"time":"2023-04-28 00:00","temp_f":47.7,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-28
+        01:00","temp_f":46.8,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        02:00","temp_f":46.0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png"}},{"time":"2023-04-28
+        03:00","temp_f":45.5,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png"}},{"time":"2023-04-28
+        04:00","temp_f":45.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        05:00","temp_f":45.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-28
+        06:00","temp_f":45.0,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png"}},{"time":"2023-04-28
+        07:00","temp_f":45.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        08:00","temp_f":45.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        09:00","temp_f":46.4,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        10:00","temp_f":48.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        11:00","temp_f":50.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-28
+        12:00","temp_f":51.1,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        13:00","temp_f":52.5,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-28
+        14:00","temp_f":54.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-28
+        15:00","temp_f":54.1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-28
+        16:00","temp_f":54.9,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-28
+        17:00","temp_f":54.7,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-28
+        18:00","temp_f":55.4,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-28
+        19:00","temp_f":54.3,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-28
+        20:00","temp_f":49.1,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-28
+        21:00","temp_f":48.4,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-28
+        22:00","temp_f":48.0,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-28
+        23:00","temp_f":47.7,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}}]},{"date":"2023-04-29","day":{"maxtemp_f":57.2,"mintemp_f":45.7,"totalsnow_cm":0.0,"condition":{"text":"Patchy
+        rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},"astro":{"sunrise":"05:50
+        AM","sunset":"07:47 PM"},"hour":[{"time":"2023-04-29 00:00","temp_f":46.9,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-29
+        01:00","temp_f":47.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-29
+        02:00","temp_f":47.3,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-29
+        03:00","temp_f":47.5,"condition":{"text":"Clear","icon":"//cdn.weatherapi.com/weather/64x64/night/113.png"}},{"time":"2023-04-29
+        04:00","temp_f":47.5,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/119.png"}},{"time":"2023-04-29
+        05:00","temp_f":48.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-29
+        06:00","temp_f":47.7,"condition":{"text":"Cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/119.png"}},{"time":"2023-04-29
+        07:00","temp_f":48.4,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-29
+        08:00","temp_f":48.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-29
+        09:00","temp_f":49.8,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png"}},{"time":"2023-04-29
+        10:00","temp_f":50.7,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/day/122.png"}},{"time":"2023-04-29
+        11:00","temp_f":48.9,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        12:00","temp_f":53.8,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        13:00","temp_f":56.3,"condition":{"text":"Patchy rain possible","icon":"//cdn.weatherapi.com/weather/64x64/day/176.png"}},{"time":"2023-04-29
+        14:00","temp_f":56.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-29
+        15:00","temp_f":57.0,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-29
+        16:00","temp_f":57.2,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-29
+        17:00","temp_f":56.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-29
+        18:00","temp_f":53.8,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png"}},{"time":"2023-04-29
+        19:00","temp_f":52.7,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png"}},{"time":"2023-04-29
+        20:00","temp_f":50.2,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-29
+        21:00","temp_f":48.0,"condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/night/116.png"}},{"time":"2023-04-29
+        22:00","temp_f":46.2,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png"}},{"time":"2023-04-29
+        23:00","temp_f":45.7,"condition":{"text":"Overcast","icon":"//cdn.weatherapi.com/weather/64x64/night/122.png"}}]}]}}'
+  recorded_at: Wed, 26 Apr 2023 04:54:59 GMT
+recorded_with: VCR 6.1.0
